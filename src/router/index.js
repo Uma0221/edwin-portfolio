@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from './styles.module.scss';
 
-import imageUrl from '../imgs/bg_banner.jpg';
+import Protfolio from '../components/Protfolio';
+
+import imageUrl from '../asset/imgs/bg_banner.jpg';
 
 function Router() {
   const img = new Image();
@@ -9,6 +11,8 @@ function Router() {
 
   const [bgWidth, setbgWidth] = useState(0);
   const [scrollY, setscrollY] = useState(0);
+  const [protfolioHeight, setprotfolioHeight] = useState(0);
+  const ref = useRef(null);
 
   useEffect(() => {
     setbgWidth(
@@ -16,6 +20,7 @@ function Router() {
         window.innerWidth +
         window.innerHeight * 0.85,
     );
+    setprotfolioHeight(ref.current.clientHeight);
 
     const handleScroll = () => {
       setscrollY(window.scrollY);
@@ -31,7 +36,10 @@ function Router() {
   useEffect(() => {}, [bgWidth, scrollY]);
 
   return (
-    <div className={styles.container} style={{ height: `${bgWidth + 500}px` }}>
+    <div
+      className={styles.container}
+      style={{ height: `${bgWidth + protfolioHeight}px` }}
+    >
       {scrollY < bgWidth - window.innerHeight * 0.85 ? (
         <>
           <div
@@ -42,9 +50,12 @@ function Router() {
             }}
           ></div>
           <div
+            ref={ref}
             className={styles.protfolio}
             style={{ position: 'fixed', top: '85vh' }}
-          ></div>
+          >
+            <Protfolio />
+          </div>
         </>
       ) : (
         <>
@@ -57,9 +68,12 @@ function Router() {
             }}
           ></div>
           <div
+            ref={ref}
             className={styles.protfolio}
             style={{ position: 'absolute', top: bgWidth }}
-          ></div>
+          >
+            <Protfolio />
+          </div>
         </>
       )}
     </div>
