@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import styles from './styles.module.scss';
 
 import Protfolio from '../components/Protfolio';
+import Sidebar from '../components/Sidebar';
 
 import imageUrl from '../asset/imgs/bg_banner.jpg';
 
@@ -40,6 +41,10 @@ function Router() {
       className={styles.container}
       style={{ height: `${bgWidth + protfolioHeight}px` }}
     >
+      <button className={styles.sidebar_button}></button>
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
       {scrollY < bgWidth - window.innerHeight * 0.85 ? (
         <>
           <div
