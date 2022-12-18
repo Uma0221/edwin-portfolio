@@ -19,89 +19,120 @@ function Router() {
     dispatch,
   } = useContext(StoreContext);
 
-  const [bgWidth, setbgWidth] = useState(0);
+  const [windowWidth, setWindowWidth] = useState(0);
+  const [windowHeight, setWindowHeight] = useState(0);
   const [scrollY, setscrollY] = useState(0);
+
+  const [bgWidth, setbgWidth] = useState(0);
   const [protfolioHeight, setprotfolioHeight] = useState(0);
   const ref = useRef(null);
 
+  let resizeWindow = () => {
+    setWindowWidth(window.innerWidth);
+    setWindowHeight(window.innerHeight);
+  };
+  let handleScroll = () => {
+    setscrollY(window.scrollY);
+  };
+
   useEffect(() => {
-    setbgWidth(
-      ((window.innerHeight * 0.85) / img.height) * img.width -
-        window.innerWidth +
-        window.innerHeight * 0.85,
-    );
-    setprotfolioHeight(ref.current.clientHeight);
-
-    const handleScroll = () => {
-      setscrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
+    resizeWindow();
+    window.addEventListener('resize', resizeWindow);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', resizeWindow);
     };
   }, []);
 
-  useEffect(() => {}, [bgWidth, scrollY, sidebarState]);
+  useEffect(() => {
+    setbgWidth(
+      ((windowHeight * 0.85) / img.height) * img.width -
+        windowWidth +
+        windowHeight * 0.85,
+    );
+  }, [windowWidth, windowHeight]);
+
+  useEffect(() => {
+    if (bgWidth > 0) {
+      setprotfolioHeight(ref.current.clientHeight);
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [bgWidth]);
+
+  useEffect(() => {}, [scrollY, sidebarState]);
 
   return (
-    <div
-      className={styles.container}
-      style={{ height: `${bgWidth + protfolioHeight}px` }}
-    >
-      <button
-        className={styles.sidebar_button}
-        onClick={() =>
-          setSidebarState(dispatch, { sidebarState: !sidebarState })
-        }
-      ></button>
-      <div
-        className={
-          sidebarState
-            ? `${styles.sidebar} ${styles.sidebar_open}`
-            : `${styles.sidebar} ${styles.sidebar_close}`
-        }
-      >
-        <Sidebar />
-      </div>
-      {scrollY < bgWidth - window.innerHeight * 0.85 ? (
-        <>
-          <div
-            className={styles.banner}
-            style={{
-              position: 'fixed',
-              backgroundPositionX: `${-scrollY}px`,
-            }}
-          ></div>
-          <div
-            ref={ref}
-            className={styles.protfolio}
-            style={{ position: 'fixed', top: '85vh' }}
+    <>
+      {bgWidth ? (
+        <div
+          className={styles.container}
+          style={{ height: `${bgWidth + protfolioHeight}px` }}
+        >
+          <button
+            className={
+              sidebarState
+                ? `${styles.sidebar_button} ${styles.cross}`
+                : `${styles.sidebar_button} ${styles.arrow}`
+            }
+            onClick={() =>
+              setSidebarState(dispatch, { sidebarState: !sidebarState })
+            }
           >
-            <Protfolio />
+            <div className={styles.bar}></div>
+            <div className={styles.bar}></div>
+          </button>
+          <div
+            className={
+              sidebarState
+                ? `${styles.sidebar} ${styles.sidebar_open}`
+                : `${styles.sidebar} ${styles.sidebar_close}`
+            }
+          >
+            <Sidebar />
           </div>
-        </>
+          {scrollY < bgWidth - windowHeight * 0.85 ? (
+            <>
+              <div
+                className={styles.banner}
+                style={{
+                  position: 'fixed',
+                  backgroundPositionX: `${-scrollY}px`,
+                }}
+              ></div>
+              <div
+                ref={ref}
+                className={styles.protfolio}
+                style={{ position: 'fixed', top: '85vh' }}
+              >
+                <Protfolio />
+              </div>
+            </>
+          ) : (
+            <>
+              <div
+                className={styles.banner}
+                style={{
+                  position: 'absolute',
+                  top: `${bgWidth - windowHeight * 0.85}px`,
+                  backgroundPositionX: `${-bgWidth + windowHeight * 0.85}px`,
+                }}
+              ></div>
+              <div
+                ref={ref}
+                className={styles.protfolio}
+                style={{ position: 'absolute', top: bgWidth }}
+              >
+                <Protfolio />
+              </div>
+            </>
+          )}
+        </div>
       ) : (
-        <>
-          <div
-            className={styles.banner}
-            style={{
-              position: 'absolute',
-              top: `${bgWidth - window.innerHeight * 0.85}px`,
-              backgroundPositionX: `${-bgWidth + window.innerHeight * 0.85}px`,
-            }}
-          ></div>
-          <div
-            ref={ref}
-            className={styles.protfolio}
-            style={{ position: 'absolute', top: bgWidth }}
-          >
-            <Protfolio />
-          </div>
-        </>
+        <></>
       )}
-    </div>
+    </>
   );
 }
 
