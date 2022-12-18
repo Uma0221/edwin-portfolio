@@ -1,37 +1,39 @@
+@import '../../styles/color.scss';
+@import '../../styles/font.scss';
+
 .container {
   width: 100%;
   height: 100%;
-  background-color: rgb(2, 85, 117);
-  padding-right: 10%;
+  background-color: $secondary_bg_color;
+  padding-right: 16px;
 }
 
-.content_bg {
+.content {
   width: 100%;
   height: 100%;
-  background-color: rgb(236, 238, 231);
-  position: relative;
-
-  .content {
-    position: absolute;
-    top: calc(88px + 10%);
-    left: 50%;
-    transform: translate(-55%, 0)
-  }
+  background-color: $main_bg_color;
 }
 
-.nav_item {
-  margin-top: 36px;
+.name {
+  height: 250px;
+}
 
-  &:hover {
-    div {
-      border-bottom: 4px solid rgb(34, 108, 137);
+.nav {
+  margin-left: 32px;
+  .nav_item {
+    margin-top: 36px;
+
+    &:hover {
+      div {
+        border-bottom: 3px solid $secondary_text_color;
+      }
     }
-  }
-  div {
-    display: inline;
-    font-size: 16px;
-    font-weight: bold;
-    color: rgb(34, 108, 137);
-    border-bottom: 4px solid rgb(236, 238, 231);
+    div {
+      display: inline;
+      font-size: $p-secondary-size;
+      font-weight: bold;
+      color: $secondary_text_color;
+      border-bottom: 3px solid $main_bg_color;
+    }
   }
 }

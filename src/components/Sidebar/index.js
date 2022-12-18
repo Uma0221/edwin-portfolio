@@ -9,29 +9,27 @@ function Sidebar() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.content_bg}>
-        <div className={styles.content}>
-          <div>黃宥穎</div>
+      <div className={styles.content}>
+        <div className={styles.name}></div>
 
-          <div className={styles.nav}>
-            <div
-              className={styles.nav_item}
-              onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-            >
-              <div>About</div>
-            </div>
-            <div
-              className={styles.nav_item}
-              onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-            >
-              <div>Protfolio</div>
-            </div>
-            <div
-              className={styles.nav_item}
-              onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-            >
-              <div>Contact</div>
-            </div>
+        <div className={styles.nav}>
+          <div
+            className={styles.nav_item}
+            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
+          >
+            <div>About</div>
+          </div>
+          <div
+            className={styles.nav_item}
+            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
+          >
+            <div>Portfolio</div>
+          </div>
+          <div
+            className={styles.nav_item}
+            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
+          >
+            <div>Contact</div>
           </div>
         </div>
       </div>
