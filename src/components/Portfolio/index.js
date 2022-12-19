@@ -2,32 +2,38 @@ import React, { useContext } from 'react';
 import styles from './styles.module.scss';
 
 import { StoreContext } from '../../store/reducer';
-import { setSidebarState } from '../../store/actions';
+import { setPortfolioNavState, setSidebarState } from '../../store/actions';
 
 function Portfolio() {
-  const { dispatch } = useContext(StoreContext);
+  const collections = [
+    'MOTION GRAPHICS',
+    'UI/UX',
+    'VISUAL DESIGN',
+    'GAME ART',
+    'SKETCH',
+    '3D MODLING',
+  ];
+
+  const {
+    state: { portfolioNavState },
+    dispatch,
+  } = useContext(StoreContext);
 
   return (
     <div className={styles.container}>
       <div className={styles.nav}>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          MOTION GRAPHICS
-        </div>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          UI/UX
-        </div>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          VISUAL DESIGN
-        </div>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          GAME ART
-        </div>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          SKETCH
-        </div>
-        <div onClick={() => setSidebarState(dispatch, { sidebarState: false })}>
-          3D MODLING
-        </div>
+        {collections.map((collection, index) => (
+          <div
+            key={collection}
+            className={portfolioNavState == index ? `${styles.select}` : ''}
+            onClick={() => {
+              setPortfolioNavState(dispatch, { portfolioNavState: index });
+              setSidebarState(dispatch, { sidebarState: false });
+            }}
+          >
+            {collection}
+          </div>
+        ))}
       </div>
     </div>
   );

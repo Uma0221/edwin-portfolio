@@ -2,10 +2,15 @@ import React, { useContext } from 'react';
 import styles from './styles.module.scss';
 
 import { StoreContext } from '../../store/reducer';
-import { setSidebarState } from '../../store/actions';
+import { setSidebarNavState, setSidebarState } from '../../store/actions';
 
 function Sidebar() {
-  const { dispatch } = useContext(StoreContext);
+  const items = ['About', 'Portfolio', 'Contact'];
+
+  const {
+    state: { sidebarNavState },
+    dispatch,
+  } = useContext(StoreContext);
 
   return (
     <div className={styles.container}>
@@ -13,7 +18,24 @@ function Sidebar() {
         <div className={styles.name}></div>
 
         <div className={styles.nav}>
-          <div
+          {items.map((item, index) => (
+            <div
+              key={item}
+              className={
+                sidebarNavState == index
+                  ? `${styles.nav_item} ${styles.select}`
+                  : `${styles.nav_item}`
+              }
+              onClick={() => {
+                setSidebarNavState(dispatch, { sidebarNavState: index });
+                setSidebarState(dispatch, { sidebarState: false });
+              }}
+            >
+              <div>{item}</div>
+            </div>
+          ))}
+
+          {/* <div
             className={styles.nav_item}
             onClick={() => setSidebarState(dispatch, { sidebarState: false })}
           >
@@ -30,7 +52,7 @@ function Sidebar() {
             onClick={() => setSidebarState(dispatch, { sidebarState: false })}
           >
             <div>Contact</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

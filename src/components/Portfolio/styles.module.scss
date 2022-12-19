@@ -23,6 +23,11 @@
     border: 3px solid $main_text_color;
     border-radius: 50px;
 
+    &.select{
+      background-color: $secondary_content_color;
+      border: 3px solid $main_content_color;
+    }
+
     &:hover {
       background-color: $secondary_content_color;
       border: 3px solid $main_content_color;

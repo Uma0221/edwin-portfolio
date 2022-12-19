@@ -23,17 +23,26 @@
   .nav_item {
     margin-top: 36px;
 
-    &:hover {
-      div {
-        border-bottom: 3px solid $secondary_text_color;
-      }
-    }
     div {
       display: inline;
       font-size: $p-secondary-size;
       font-weight: bold;
       color: $secondary_text_color;
       border-bottom: 3px solid $main_bg_color;
+      opacity: 0.5;
+    }
+
+    &.select{
+      div {
+        border-bottom: 3px solid $secondary_text_color;
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      div {
+        opacity: 1;
+      }
     }
   }
 }
