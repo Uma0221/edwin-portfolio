@@ -72,6 +72,22 @@
   height: 85vh;
   background-size: auto 100%;
   background-image: url('../../asset/imgs/bg_banner.jpg');
+
+  .gif_painter {
+    position: fixed;
+    height: 100%;
+    top: 6%;
+  }
+  .gif_light {
+    position: fixed;
+    height: 46%;
+    top: -6%;
+  }
+  .gif_rockyMan {
+    position: fixed;
+    height: 92%;
+    top: 14%;
+  }
 }
 
 .portfolio {

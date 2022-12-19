@@ -8,6 +8,10 @@ import styles from './styles.module.scss';
 import Portfolio from '../../components/Portfolio';
 import Sidebar from '../../components/Sidebar';
 
+import painterSrc from '../../asset/imgs/painter.gif';
+import lightSrc from '../../asset/imgs/light.gif';
+import rockyManSrc from '../../asset/imgs/rockyMan.gif';
+
 function Router() {
   const imgWidth = 5481;
   const imgHeight = 740;
@@ -98,7 +102,29 @@ function Router() {
                   position: 'fixed',
                   backgroundPositionX: `${-scrollY}px`,
                 }}
-              ></div>
+              >
+                <img
+                  className={styles.gif_painter}
+                  style={{
+                    left: `${-windowHeight * 0.15 - scrollY}px`,
+                  }}
+                  src={painterSrc}
+                ></img>
+                <img
+                  className={styles.gif_light}
+                  style={{
+                    left: `${windowHeight * 1.48 - scrollY}px`,
+                  }}
+                  src={lightSrc}
+                ></img>
+                <img
+                  className={styles.gif_rockyMan}
+                  style={{
+                    left: `${windowHeight * 1.14 - scrollY}px`,
+                  }}
+                  src={rockyManSrc}
+                ></img>
+              </div>
               <div
                 ref={ref}
                 className={styles.portfolio}
