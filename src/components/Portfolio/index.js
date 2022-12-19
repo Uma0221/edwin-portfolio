@@ -4,6 +4,8 @@ import styles from './styles.module.scss';
 import { StoreContext } from '../../store/reducer';
 import { setPortfolioNavState, setSidebarState } from '../../store/actions';
 
+import worksJson from '../../asset/json/works.json';
+
 function Portfolio() {
   const collections = [
     'MOTION GRAPHICS',
@@ -32,6 +34,21 @@ function Portfolio() {
             }}
           >
             {collection}
+          </div>
+        ))}
+      </div>
+      <div className={styles.works}>
+        {worksJson[0].works.map((work) => (
+          <div key={work} className={styles.work}>
+            <div className={styles.work_bg}>
+              <div className={styles.work_name}>{work}</div>
+              <div className={styles.work_more}>
+                <div className={styles.more_text}>MORE</div>
+              </div>
+            </div>
+            <div className={styles.work_collection}>
+              {collections[portfolioNavState]}
+            </div>
           </div>
         ))}
       </div>
