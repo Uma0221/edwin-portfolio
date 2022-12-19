@@ -5,7 +5,7 @@ import { setSidebarState } from '../../store/actions';
 
 import styles from './styles.module.scss';
 
-import Protfolio from '../../components/Protfolio';
+import Portfolio from '../../components/Portfolio';
 import Sidebar from '../../components/Sidebar';
 
 function Router() {
@@ -19,10 +19,10 @@ function Router() {
 
   const [windowWidth, setWindowWidth] = useState(0);
   const [windowHeight, setWindowHeight] = useState(0);
-  const [scrollY, setscrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
 
-  const [bgWidth, setbgWidth] = useState(0);
-  const [protfolioHeight, setprotfolioHeight] = useState(0);
+  const [bgWidth, setBgWidth] = useState(0);
+  const [portfolioHeight, setPortfolioHeight] = useState(0);
   const ref = useRef(null);
 
   let resizeWindow = () => {
@@ -30,7 +30,7 @@ function Router() {
     setWindowHeight(window.innerHeight);
   };
   let handleScroll = () => {
-    setscrollY(window.scrollY);
+    setScrollY(window.scrollY);
   };
 
   useEffect(() => {
@@ -42,7 +42,7 @@ function Router() {
   }, []);
 
   useEffect(() => {
-    setbgWidth(
+    setBgWidth(
       ((windowHeight * 0.85) / imgHeight) * imgWidth -
         windowWidth +
         windowHeight * 0.85,
@@ -51,7 +51,7 @@ function Router() {
 
   useEffect(() => {
     if (bgWidth > 0) {
-      setprotfolioHeight(ref.current.clientHeight);
+      setPortfolioHeight(ref.current.clientHeight);
       window.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);
@@ -66,7 +66,7 @@ function Router() {
       {bgWidth > 0 ? (
         <div
           className={styles.container}
-          style={{ height: `${bgWidth + protfolioHeight}px` }}
+          style={{ height: `${bgWidth + portfolioHeight}px` }}
         >
           <button
             className={
@@ -101,10 +101,10 @@ function Router() {
               ></div>
               <div
                 ref={ref}
-                className={styles.protfolio}
+                className={styles.portfolio}
                 style={{ position: 'fixed', top: '85vh' }}
               >
-                <Protfolio />
+                <Portfolio />
               </div>
             </>
           ) : (
@@ -119,10 +119,10 @@ function Router() {
               ></div>
               <div
                 ref={ref}
-                className={styles.protfolio}
+                className={styles.portfolio}
                 style={{ position: 'absolute', top: bgWidth }}
               >
-                <Protfolio />
+                <Portfolio />
               </div>
             </>
           )}

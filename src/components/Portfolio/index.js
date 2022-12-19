@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import { StoreContext } from '../../store/reducer';
 import { setSidebarState } from '../../store/actions';
 
-function Protfolio() {
+function Portfolio() {
   const { dispatch } = useContext(StoreContext);
 
   return (
@@ -33,4 +33,4 @@ function Protfolio() {
   );
 }
 
-export default Protfolio;
+export default Portfolio;
