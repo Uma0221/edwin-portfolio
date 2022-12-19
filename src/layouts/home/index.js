@@ -8,11 +8,9 @@ import styles from './styles.module.scss';
 import Protfolio from '../../components/Protfolio';
 import Sidebar from '../../components/Sidebar';
 
-import imageUrl from '../../asset/imgs/bg_banner.jpg';
-
 function Router() {
-  const img = new Image();
-  img.src = imageUrl;
+  const imgWidth = 5481;
+  const imgHeight = 740;
 
   const {
     state: { sidebarState },
@@ -45,7 +43,7 @@ function Router() {
 
   useEffect(() => {
     setbgWidth(
-      ((windowHeight * 0.85) / img.height) * img.width -
+      ((windowHeight * 0.85) / imgHeight) * imgWidth -
         windowWidth +
         windowHeight * 0.85,
     );
@@ -65,7 +63,7 @@ function Router() {
 
   return (
     <>
-      {bgWidth ? (
+      {bgWidth > 0 ? (
         <div
           className={styles.container}
           style={{ height: `${bgWidth + protfolioHeight}px` }}
