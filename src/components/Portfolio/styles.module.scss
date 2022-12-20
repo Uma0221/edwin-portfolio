@@ -3,8 +3,7 @@
 
 .container {
   width: 100%;
-  padding-top: 60px;
-  padding-left: 68px;
+  padding: 60px 68px;
   background-color: $main_text_color;
 }
 
@@ -38,11 +37,10 @@
 .works {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 60px;
-  margin-left: -25px;
+  margin: 0 -24px;
 
   .work {
-    padding: 25px;
+    padding: 24px;
 
     .work_bg {
       width: 300px;

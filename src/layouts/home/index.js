@@ -6,11 +6,12 @@ import { setSidebarState } from '../../store/actions';
 import styles from './styles.module.scss';
 
 import Portfolio from '../../components/Portfolio';
+import Contact from '../../components/Contact';
 import Sidebar from '../../components/Sidebar';
 
-import painterSrc from '../../asset/imgs/painter.gif';
-import lightSrc from '../../asset/imgs/light.gif';
-import rockyManSrc from '../../asset/imgs/rockyMan.gif';
+import painterGIF from '../../asset/imgs/painter.gif';
+import lightGIF from '../../asset/imgs/light.gif';
+import rockyManGIF from '../../asset/imgs/rockyMan.gif';
 
 function Router() {
   const imgWidth = 5481;
@@ -26,7 +27,7 @@ function Router() {
   const [scrollY, setScrollY] = useState(0);
 
   const [bgWidth, setBgWidth] = useState(0);
-  const [portfolioHeight, setPortfolioHeight] = useState(0);
+  const [contentHeight, setContentHeight] = useState(0);
   const ref = useRef(null);
 
   let resizeWindow = () => {
@@ -55,7 +56,7 @@ function Router() {
 
   useEffect(() => {
     if (bgWidth > 0) {
-      setPortfolioHeight(ref.current.clientHeight);
+      setContentHeight(ref.current.clientHeight);
       window.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);
@@ -70,7 +71,7 @@ function Router() {
       {bgWidth > 0 ? (
         <div
           className={styles.container}
-          style={{ height: `${bgWidth + portfolioHeight}px` }}
+          style={{ height: `${bgWidth + contentHeight}px` }}
         >
           <button
             className={
@@ -108,29 +109,30 @@ function Router() {
                   style={{
                     left: `${-windowHeight * 0.15 - scrollY}px`,
                   }}
-                  src={painterSrc}
+                  src={painterGIF}
                 ></img>
                 <img
                   className={styles.gif_light}
                   style={{
                     left: `${windowHeight * 1.48 - scrollY}px`,
                   }}
-                  src={lightSrc}
+                  src={lightGIF}
                 ></img>
                 <img
                   className={styles.gif_rockyMan}
                   style={{
                     left: `${windowHeight * 1.14 - scrollY}px`,
                   }}
-                  src={rockyManSrc}
+                  src={rockyManGIF}
                 ></img>
               </div>
               <div
                 ref={ref}
-                className={styles.portfolio}
+                className={styles.content}
                 style={{ position: 'fixed', top: '85vh' }}
               >
                 <Portfolio />
+                <Contact />
               </div>
             </>
           ) : (
@@ -145,10 +147,11 @@ function Router() {
               ></div>
               <div
                 ref={ref}
-                className={styles.portfolio}
+                className={styles.content}
                 style={{ position: 'absolute', top: bgWidth }}
               >
                 <Portfolio />
+                <Contact />
               </div>
             </>
           )}
