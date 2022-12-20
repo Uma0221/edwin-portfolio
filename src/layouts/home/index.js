@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
 
 import { StoreContext } from '../../store/reducer';
-import { setSidebarState } from '../../store/actions';
+import { setSidebarState, setSidebarNavState } from '../../store/actions';
 
 import styles from './styles.module.scss';
 
@@ -18,7 +18,7 @@ function Router() {
   const imgHeight = 740;
 
   const {
-    state: { sidebarState },
+    state: { sidebarState, sidebarNavState },
     dispatch,
   } = useContext(StoreContext);
 
@@ -27,8 +27,12 @@ function Router() {
   const [scrollY, setScrollY] = useState(0);
 
   const [bgWidth, setBgWidth] = useState(0);
-  const [contentHeight, setContentHeight] = useState(0);
-  const ref = useRef(null);
+  const portfolioRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const [portfolioHeight, setPortfolioHeight] = useState(0);
+  const [contactHeight, setContactHeight] = useState(0);
+  const [currentNavState, setCurrentNavState] = useState(0);
 
   let resizeWindow = () => {
     setWindowWidth(window.innerWidth);
@@ -56,7 +60,8 @@ function Router() {
 
   useEffect(() => {
     if (bgWidth > 0) {
-      setContentHeight(ref.current.clientHeight);
+      setPortfolioHeight(portfolioRef.current.clientHeight);
+      setContactHeight(contactRef.current.clientHeight);
       window.addEventListener('scroll', handleScroll);
       return () => {
         window.removeEventListener('scroll', handleScroll);
@@ -64,14 +69,44 @@ function Router() {
     }
   }, [bgWidth]);
 
-  useEffect(() => {}, [scrollY, sidebarState]);
+  useEffect(() => {
+    if (bgWidth > 0) {
+      if (scrollY < bgWidth - windowHeight * 0.85 && currentNavState != 0) {
+        setCurrentNavState(0);
+      } else if (
+        scrollY >= bgWidth - windowHeight * 0.85 &&
+        scrollY <= bgWidth + portfolioHeight - windowHeight &&
+        currentNavState != 1
+      ) {
+        setCurrentNavState(1);
+      } else if (
+        scrollY > bgWidth + portfolioHeight - windowHeight &&
+        currentNavState != 2
+      ) {
+        setCurrentNavState(2);
+      }
+    }
+  }, [scrollY]);
+
+  useEffect(() => {
+    if (sidebarNavState != currentNavState) {
+      setSidebarNavState(dispatch, { sidebarNavState: currentNavState });
+    }
+  }, [currentNavState]);
+
+  useEffect(() => {}, [
+    portfolioHeight,
+    contactHeight,
+    sidebarState,
+    sidebarNavState,
+  ]);
 
   return (
     <>
       {bgWidth > 0 ? (
         <div
           className={styles.container}
-          style={{ height: `${bgWidth + contentHeight}px` }}
+          style={{ height: `${bgWidth + portfolioHeight + contactHeight}px` }}
         >
           <button
             className={
@@ -127,11 +162,20 @@ function Router() {
                 ></img>
               </div>
               <div
-                ref={ref}
+                ref={portfolioRef}
                 className={styles.content}
                 style={{ position: 'fixed', top: '85vh' }}
               >
                 <Portfolio />
+              </div>
+              <div
+                ref={contactRef}
+                className={styles.content}
+                style={{
+                  position: 'fixed',
+                  top: `${windowHeight * 0.85 + portfolioHeight}px`,
+                }}
+              >
                 <Contact />
               </div>
             </>
@@ -146,11 +190,17 @@ function Router() {
                 }}
               ></div>
               <div
-                ref={ref}
+                ref={portfolioRef}
                 className={styles.content}
                 style={{ position: 'absolute', top: bgWidth }}
               >
                 <Portfolio />
+              </div>
+              <div
+                ref={contactRef}
+                className={styles.content}
+                style={{ position: 'absolute', top: bgWidth + portfolioHeight }}
+              >
                 <Contact />
               </div>
             </>
