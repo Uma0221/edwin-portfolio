@@ -15,6 +15,21 @@ export const setSidebarState = async (dispatch, options) => {
   }
 };
 
+export const setSidebarNavClick = async (dispatch, options) => {
+  dispatch({ type: Type.BEGIN_DATA_REQUEST });
+  const { sidebarNavClick } = options;
+
+  try {
+    dispatch({
+      type: Type.SET_SIDEBARNAV_CLICK,
+      payload: sidebarNavClick,
+    });
+    dispatch({ type: Type.SUCCESS_DATA_REQUEST });
+  } catch (error) {
+    dispatch({ type: Type.FAIL_DATA_REQUEST, payload: error });
+  }
+};
+
 export const setSidebarNavState = async (dispatch, options) => {
   dispatch({ type: Type.BEGIN_DATA_REQUEST });
   const { sidebarNavState } = options;

@@ -21,18 +21,19 @@
 .nav {
   margin-left: 32px;
   .nav_item {
+    display: block;
     margin-top: 36px;
 
     div {
       display: inline;
       font-size: $p-secondary-size;
-      font-weight: bold;
+      font-weight: 900;
       color: $secondary_text_color;
       border-bottom: 3px solid $main_bg_color;
       opacity: 0.5;
     }
 
-    &.select{
+    &.select {
       div {
         border-bottom: 3px solid $secondary_text_color;
         opacity: 1;

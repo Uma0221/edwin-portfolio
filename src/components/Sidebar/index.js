@@ -1,8 +1,14 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+
 import styles from './styles.module.scss';
 
 import { StoreContext } from '../../store/reducer';
-import { setSidebarNavState, setSidebarState } from '../../store/actions';
+import {
+  setSidebarNavClick,
+  setSidebarNavState,
+  setSidebarState,
+} from '../../store/actions';
 
 function Sidebar() {
   const items = ['About', 'Portfolio', 'Contact'];
@@ -19,40 +25,23 @@ function Sidebar() {
 
         <div className={styles.nav}>
           {items.map((item, index) => (
-            <div
-              key={item}
+            <Link
+              to={index ? `/${item}` : '/'}
+              key={`sidebarNavItem_${index}`}
               className={
                 sidebarNavState == index
                   ? `${styles.nav_item} ${styles.select}`
                   : `${styles.nav_item}`
               }
               onClick={() => {
+                setSidebarNavClick(dispatch, { sidebarNavClick: true });
                 setSidebarNavState(dispatch, { sidebarNavState: index });
                 setSidebarState(dispatch, { sidebarState: false });
               }}
             >
               <div>{item}</div>
-            </div>
+            </Link>
           ))}
-
-          {/* <div
-            className={styles.nav_item}
-            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-          >
-            <div>About</div>
-          </div>
-          <div
-            className={styles.nav_item}
-            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-          >
-            <div>Portfolio</div>
-          </div>
-          <div
-            className={styles.nav_item}
-            onClick={() => setSidebarState(dispatch, { sidebarState: false })}
-          >
-            <div>Contact</div>
-          </div> */}
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ export const StoreContext = createContext();
 
 const initialState = {
   sidebarState: false,
+  sidebarNavClick: false,
   sidebarNavState: 0,
   portfolioNavState: 0,
   requestdata: { loading: false, error: null },
@@ -17,6 +18,11 @@ function reducer(state, action) {
       return {
         ...state,
         sidebarState: action.payload,
+      };
+    case Type.SET_SIDEBARNAV_CLICK:
+      return {
+        ...state,
+        sidebarNavClick: action.payload,
       };
     case Type.SET_SIDEBARNAV_STATE:
       return {

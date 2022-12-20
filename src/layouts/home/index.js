@@ -1,7 +1,13 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
 
 import { StoreContext } from '../../store/reducer';
-import { setSidebarState, setSidebarNavState } from '../../store/actions';
+import {
+  setSidebarState,
+  setSidebarNavClick,
+  setSidebarNavState,
+} from '../../store/actions';
 
 import styles from './styles.module.scss';
 
@@ -16,9 +22,10 @@ import rockyManGIF from '../../asset/imgs/rockyMan.gif';
 function Router() {
   const imgWidth = 5481;
   const imgHeight = 740;
+  const navigate = useNavigate();
 
   const {
-    state: { sidebarState, sidebarNavState },
+    state: { sidebarState, sidebarNavClick, sidebarNavState },
     dispatch,
   } = useContext(StoreContext);
 
@@ -70,23 +77,51 @@ function Router() {
   }, [bgWidth]);
 
   useEffect(() => {
+    if (portfolioHeight > 0) {
+      if (window.location.pathname == '/Portfolio') {
+        window.scrollTo(0, bgWidth);
+        setSidebarNavState(dispatch, { sidebarNavState: 1 });
+      } else if (window.location.pathname == '/Contact') {
+        window.scrollTo(0, bgWidth + portfolioHeight);
+        setSidebarNavState(dispatch, { sidebarNavState: 2 });
+      }
+    }
+  }, [portfolioHeight]);
+
+  useEffect(() => {
     if (bgWidth > 0) {
       if (scrollY < bgWidth - windowHeight * 0.85 && currentNavState != 0) {
+        navigate('/');
         setCurrentNavState(0);
       } else if (
         scrollY >= bgWidth - windowHeight * 0.85 &&
         scrollY <= bgWidth + portfolioHeight - windowHeight + 128 &&
         currentNavState != 1
       ) {
+        navigate('/Portfolio');
         setCurrentNavState(1);
       } else if (
         scrollY > bgWidth + portfolioHeight - windowHeight + 128 &&
         currentNavState != 2
       ) {
+        navigate('/Contact');
         setCurrentNavState(2);
       }
     }
   }, [scrollY]);
+
+  useEffect(() => {
+    if (sidebarNavClick) {
+      if (sidebarNavState == 0) {
+        scroll.scrollToTop();
+      } else if (sidebarNavState == 1) {
+        scroll.scrollTo(bgWidth);
+      } else if (sidebarNavState == 2) {
+        scroll.scrollTo(bgWidth + portfolioHeight);
+      }
+      setSidebarNavClick(dispatch, { sidebarNavClick: false });
+    }
+  }, [sidebarNavClick]);
 
   useEffect(() => {
     if (sidebarNavState != currentNavState) {
@@ -94,12 +129,7 @@ function Router() {
     }
   }, [currentNavState]);
 
-  useEffect(() => {}, [
-    portfolioHeight,
-    contactHeight,
-    sidebarState,
-    sidebarNavState,
-  ]);
+  useEffect(() => {}, [contactHeight, sidebarNavState, sidebarState]);
 
   return (
     <>
