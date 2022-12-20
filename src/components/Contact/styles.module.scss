@@ -3,38 +3,40 @@
 
 .container {
   width: 100%;
-  padding-bottom: 50px;
   background-color: $secondary_content_color;
 }
 
 .content {
   width: 100%;
   height: 100%;
-  padding: 32px 68px;
+  padding: 64px 162px;
   background-color: $main_text_color;
 }
 
-// .contact_title {
-
-// }
+.contact_title {
+  padding-top: 64px;
+  width: 352px;
+}
 
 .contact_text {
-  font-size: $p-third-size;
+  font-size: $p-main-size;
+  font-weight: bold;
   color: white;
+  padding: 14px 0;
 }
 
 .contact_nav {
   display: flex;
   flex-wrap: wrap;
-  margin: 16px -16px;
+  margin: 64px -20px;
 
   .contact_circle {
-    width: 64px;
-    height: 64px;
-    margin: 16px;
+    width: 164px;
+    height: 164px;
+    margin: 20px;
 
     border-radius: 50%;
-    border: 3px solid yellow;
+    border: 6px solid yellow;
   }
 
   .contact_personalPhoto {
@@ -70,5 +72,32 @@
       width: 100%;
       height: 100%;
     }
+  }
+}
+
+.splitLine{
+  display: flex;
+  width: 100%;
+  background-color: $main_text_color;
+  justify-content: right;
+
+  img{
+    height: 32px;
+  }
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: $secondary_content_color;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: right;
+
+  div {
+    font-size: $p-main-size;
+    font-weight: bold;
+    color: white;
   }
 }

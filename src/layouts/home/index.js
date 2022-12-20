@@ -75,12 +75,12 @@ function Router() {
         setCurrentNavState(0);
       } else if (
         scrollY >= bgWidth - windowHeight * 0.85 &&
-        scrollY <= bgWidth + portfolioHeight - windowHeight &&
+        scrollY <= bgWidth + portfolioHeight - windowHeight + 128 &&
         currentNavState != 1
       ) {
         setCurrentNavState(1);
       } else if (
-        scrollY > bgWidth + portfolioHeight - windowHeight &&
+        scrollY > bgWidth + portfolioHeight - windowHeight + 128 &&
         currentNavState != 2
       ) {
         setCurrentNavState(2);

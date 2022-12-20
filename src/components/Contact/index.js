@@ -5,6 +5,7 @@ import titleContactPNG from '../../asset/imgs/CTitle_CONTACT.png';
 import iconEmailPNG from '../../asset/imgs/Icon_Email.png';
 import iconInstagramPNG from '../../asset/imgs/Icon_Instagram.png';
 import iconTelegramPNG from '../../asset/imgs/Icon_Telegram.png';
+import splitLinePNG from '../../asset/imgs/Img_SplitLine.png';
 
 function Contact() {
   return (
@@ -46,6 +47,12 @@ function Contact() {
             <img src={iconTelegramPNG}></img>
           </a>
         </div>
+      </div>
+      <div className={styles.splitLine}>
+        <img src={splitLinePNG}></img>
+      </div>
+      <div className={styles.footer}>
+        <div>Edwin Huang, 2022</div>
       </div>
     </div>
   );
