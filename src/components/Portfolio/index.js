@@ -26,7 +26,7 @@ function Portfolio() {
       <div className={styles.nav}>
         {collections.map((collection, index) => (
           <div
-            key={collection}
+            key={`collection_${index}`}
             className={portfolioNavState == index ? `${styles.select}` : ''}
             onClick={() => {
               setPortfolioNavState(dispatch, { portfolioNavState: index });
@@ -38,17 +38,17 @@ function Portfolio() {
         ))}
       </div>
       <div className={styles.works}>
-        {worksJson[0].works.map((work) => (
-          <div key={work} className={styles.work}>
+        {worksJson[0].works.map((work, index) => (
+          <div key={`work_${index}`} className={styles.work}>
             <div className={styles.work_bg}>
-              <div className={styles.work_name}>{work}</div>
-              <div className={styles.work_more}>
-                <div className={styles.more_text}>MORE</div>
+              <div className={styles.work_name}>{work.name}</div>
+              <div className={styles.work_cover}>
+                <div className={styles.work_intro}>{work.intro}</div>
+                <div className={styles.work_more}>MORE</div>
               </div>
             </div>
-            <div className={styles.work_collection}>
-              {collections[portfolioNavState]}
-            </div>
+            <div className={styles.work_keywords}>{work.keywords}</div>
+            <div className={styles.work_tools}>{work.tools}</div>
           </div>
         ))}
       </div>

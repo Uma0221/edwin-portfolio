@@ -1,9 +1,42 @@
 [
     {
         "works": [
-            "Blue Remedy",
-            "fRUItmeN",
-            "DonkiDonki 心跳倒數計時"
+            {
+                "name": "Blue Remedy",
+                "intro": "化身主角 Oka 利用水的三態在地圖進行走、跑、跳、滲透、毛細等多類行為解謎破關，目標為打擊邪惡...",
+                "keywords": "2D 捲軸 / 解謎 / 動作 / 冒險",
+                "tools": "Unity / Photoshop / Clip Studio Paint"
+            },
+            {
+                "name": "fRUItmeN",
+                "intro": "主角蘇菲使用豐饒力量召喚水果人，到世界各地抵抗災厄的怪物恢復大地的豐饒...",
+                "keywords": "2.5D 橫向捲軸 / 動作 / 冒險",
+                "tools": "Unity / Photoshop"
+            },
+            {
+                "name": "DonkiDonki 心跳倒數計時",
+                "intro": "好友近日有三名追求者並詢問你的意見，聽從建議後決定跟對方交往並進入熱戀，但好友的行為開始變得奇怪...",
+                "keywords": "對話式劇情 / 恐怖解謎 / 劇情選擇",
+                "tools": "Unity / Clip Studio Paint"
+            },
+            {
+                "name": "Blue Remedy",
+                "intro": "化身主角 Oka 利用水的三態在地圖進行走、跑、跳、滲透、毛細等多類行為解謎破關，目標為打擊邪惡...",
+                "keywords": "2D 捲軸 / 解謎 / 動作 / 冒險",
+                "tools": "Unity / Photoshop / Clip Studio Paint"
+            },
+            {
+                "name": "fRUItmeN",
+                "intro": "主角蘇菲使用豐饒力量召喚水果人，到世界各地抵抗災厄的怪物恢復大地的豐饒...",
+                "keywords": "2.5D 橫向捲軸 / 動作 / 冒險",
+                "tools": "Unity / Photoshop"
+            },
+            {
+                "name": "DonkiDonki 心跳倒數計時",
+                "intro": "好友近日有三名追求者並詢問你的意見，聽從建議後決定跟對方交往並進入熱戀，但好友的行為開始變得奇怪...",
+                "keywords": "對話式劇情 / 恐怖解謎 / 劇情選擇",
+                "tools": "Unity / Clip Studio Paint"
+            }
         ]
     }
 ]

@@ -51,8 +51,12 @@
       background-color: $secondary_bg_color;
       position: relative;
 
+      border: 4px solid $main_text_color;
+
       &:hover {
-        .work_more {
+        border: 4px solid $main_content_color;
+
+        .work_cover {
           opacity: 1;
         }
       }
@@ -67,35 +71,56 @@
         color: white;
       }
 
-      .work_more {
+      .work_cover {
         position: absolute;
-        width: 112px;
-        height: 48px;
-        top: 4%;
-        right: 6%;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        background-color: rgba($color: #000000, $alpha: 0.5);
 
-        border: 3px solid $main_text_color;
-        border-radius: 12px;
-        background-color: rgba(white, 0.5);
-        transition: all 0.5s ease;
         opacity: 0;
+        transition: all 0.5s ease;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        .work_intro {
+          padding: 21px 26px;
+          width: 100%;
+          height: calc(50% - 32px);
 
-        .more_text {
+          font-size: $p-third-size;
+          font-weight: 700;
+          line-height: 32px;
+
+          word-wrap: break-word;
+          overflow: hidden;
+
+          color: white;
+        }
+
+        .work_more {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
           font-size: $p-main-size;
           font-weight: 900;
-          color: $main_text_color;
+          color: white;
         }
       }
     }
 
-    .work_collection {
+    .work_keywords {
       padding-top: 12px;
-      font-size: $p-main-size;
-      font-weight: 400;
+      padding-left: 10px;
+      font-size: $p-third-size;
+      font-weight: 700;
+      color: white;
+    }
+    .work_tools {
+      padding-top: 6px;
+      padding-left: 10px;
+      font-size: $p-third-size;
+      font-weight: 200;
       color: white;
     }
   }
