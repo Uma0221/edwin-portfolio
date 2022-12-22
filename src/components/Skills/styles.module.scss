@@ -1,0 +1,18 @@
+@import '../../styles/color.scss';
+@import '../../styles/font.scss';
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.contentBG {
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  height: 6%;
+  top: 6.4%;
+  left: 20%;
+}

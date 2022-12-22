@@ -14,10 +14,16 @@ import styles from './styles.module.scss';
 import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact';
 import Sidebar from '../../components/Sidebar';
+import Intro from '../../components/Intro';
+import Experience from '../../components/Experience';
+import Skills from '../../components/Skills';
 
-import painterGIF from '../../asset/imgs/painter.gif';
-import lightGIF from '../../asset/imgs/light.gif';
-import rockyManGIF from '../../asset/imgs/rockyMan.gif';
+import IntroPNG from '../../asset/imgs/banner/BTitle_INTRO.png';
+import ExpPNG from '../../asset/imgs/banner/BTitle_EXP.png';
+
+import painterGIF from '../../asset/imgs/banner/painter.gif';
+import lightGIF from '../../asset/imgs/banner/light.gif';
+import rockyManGIF from '../../asset/imgs/banner/rockyMan.gif';
 
 function Router() {
   const imgWidth = 5481;
@@ -160,81 +166,143 @@ function Router() {
           >
             <Sidebar />
           </div>
-          {scrollY < bgWidth - windowHeight * 0.85 ? (
-            <>
-              <div
-                className={styles.banner}
-                style={{
-                  position: 'fixed',
-                  backgroundPositionX: `${-scrollY}px`,
-                }}
-              >
-                <img
-                  className={styles.gif_painter}
-                  style={{
-                    left: `${-windowHeight * 0.15 - scrollY}px`,
-                  }}
-                  src={painterGIF}
-                ></img>
-                <img
-                  className={styles.gif_light}
-                  style={{
-                    left: `${windowHeight * 1.48 - scrollY}px`,
-                  }}
-                  src={lightGIF}
-                ></img>
-                <img
-                  className={styles.gif_rockyMan}
-                  style={{
-                    left: `${windowHeight * 1.14 - scrollY}px`,
-                  }}
-                  src={rockyManGIF}
-                ></img>
-              </div>
-              <div
-                ref={portfolioRef}
-                className={styles.content}
-                style={{ position: 'fixed', top: '85vh' }}
-              >
-                <Portfolio />
-              </div>
-              <div
-                ref={contactRef}
-                className={styles.content}
-                style={{
-                  position: 'fixed',
-                  top: `${windowHeight * 0.85 + portfolioHeight}px`,
-                }}
-              >
-                <Contact />
-              </div>
-            </>
-          ) : (
-            <>
-              <div
-                className={styles.banner}
-                style={{
-                  position: 'absolute',
-                  top: `${bgWidth - windowHeight * 0.85}px`,
-                  backgroundPositionX: `${-bgWidth + windowHeight * 0.85}px`,
-                }}
-              ></div>
-              <div
-                ref={portfolioRef}
-                className={styles.content}
-                style={{ position: 'absolute', top: bgWidth }}
-              >
-                <Portfolio />
-              </div>
-              <div
-                ref={contactRef}
-                className={styles.content}
-                style={{ position: 'absolute', top: bgWidth + portfolioHeight }}
-              >
-                <Contact />
-              </div>
-            </>
-          )}
+          <div
+            className={styles.banner}
+            style={
+              scrollY < bgWidth - windowHeight * 0.85
+                ? {
+                    position: 'fixed',
+                    backgroundPositionX: `${-scrollY}px`,
+                  }
+                : {
+                    position: 'absolute',
+                    top: `${bgWidth - windowHeight * 0.85}px`,
+                    backgroundPositionX: `${-bgWidth + windowHeight * 0.85}px`,
+                  }
+            }
+          >
+            <div
+              className={styles.banner_content}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${windowHeight * 0.2}px`,
+                      left: `${windowHeight * 0.82 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.65 - scrollY}px`,
+                      left: `${windowHeight * 1.67 - bgWidth}px`,
+                    }
+              }
+            >
+              <img className={styles.banner_content_title} src={IntroPNG}></img>
+              <Intro />
+            </div>
+            <div
+              className={styles.banner_content}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${windowHeight * 0.2}px`,
+                      left: `${windowHeight * 2.18 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.65 - scrollY}px`,
+                      left: `${windowHeight * 3.03 - bgWidth}px`,
+                    }
+              }
+            >
+              <img className={styles.banner_content_title} src={ExpPNG}></img>
+              <Experience />
+            </div>
+            <div
+              className={styles.skills}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${windowHeight * 0.1}px`,
+                      left: `${windowHeight * 4.42 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.75 - scrollY}px`,
+                      left: `${windowHeight * 5.27 - bgWidth}px`,
+                    }
+              }
+            >
+              <Skills />
+            </div>
+
+            <img
+              className={styles.gif_painter}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${windowHeight * 0.06}px`,
+                      left: `${-windowHeight * 0.15 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.79 - scrollY}px`,
+                      left: `${windowHeight * 0.7 - bgWidth}px`,
+                    }
+              }
+              src={painterGIF}
+            ></img>
+            <img
+              className={styles.gif_light}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${-windowHeight * 0.06}px`,
+                      left: `${windowHeight * 1.62 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.91 - scrollY}px`,
+                      left: `${windowHeight * 2.47 - bgWidth}px`,
+                    }
+              }
+              src={lightGIF}
+            ></img>
+            <img
+              className={styles.gif_rockyMan}
+              style={
+                scrollY < bgWidth - windowHeight * 0.85
+                  ? {
+                      top: `${windowHeight * 0.14}px`,
+                      left: `${windowHeight * 1.28 - scrollY}px`,
+                    }
+                  : {
+                      top: `${bgWidth - windowHeight * 0.71 - scrollY}px`,
+                      left: `${windowHeight * 2.13 - bgWidth}px`,
+                    }
+              }
+              src={rockyManGIF}
+            ></img>
+          </div>
+          <div
+            ref={portfolioRef}
+            className={styles.content}
+            style={
+              scrollY < bgWidth - windowHeight * 0.85
+                ? { position: 'fixed', top: '85vh' }
+                : { position: 'absolute', top: bgWidth }
+            }
+          >
+            <Portfolio />
+          </div>
+          <div
+            ref={contactRef}
+            className={styles.content}
+            style={
+              scrollY < bgWidth - windowHeight * 0.85
+                ? {
+                    position: 'fixed',
+                    top: `${windowHeight * 0.85 + portfolioHeight}px`,
+                  }
+                : { position: 'absolute', top: bgWidth + portfolioHeight }
+            }
+          >
+            <Contact />
+          </div>
         </div>
       ) : (
         <></>
