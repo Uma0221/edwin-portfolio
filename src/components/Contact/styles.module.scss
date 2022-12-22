@@ -36,12 +36,12 @@
     margin: 20px;
 
     border-radius: 50%;
-    border: 6px solid yellow;
+    border: 6px solid $third_content_color;
   }
 
   .contact_personalPhoto {
     background-size: auto 100%;
-    background-image: url('../../asset/imgs/Img_Profile2.png');
+    background-image: url('../../asset/imgs/contact/Img_Profile2.png');
   }
 
   .contact_link {

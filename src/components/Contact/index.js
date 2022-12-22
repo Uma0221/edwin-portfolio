@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import titleContactPNG from '../../asset/imgs/CTitle_CONTACT.png';
-import iconEmailPNG from '../../asset/imgs/Icon_Email.png';
-import iconInstagramPNG from '../../asset/imgs/Icon_Instagram.png';
-import iconTelegramPNG from '../../asset/imgs/Icon_Telegram.png';
-import splitLinePNG from '../../asset/imgs/Img_SplitLine.png';
+import titleContactPNG from '../../asset/imgs/contact/CTitle_CONTACT.png';
+import iconEmailPNG from '../../asset/imgs/contact/Icon_Email.png';
+import iconInstagramPNG from '../../asset/imgs/contact/Icon_Instagram.png';
+import iconTelegramPNG from '../../asset/imgs/contact/Icon_Telegram.png';
+import splitLinePNG from '../../asset/imgs/contact/Img_SplitLine.png';
 
 function Contact() {
   return (

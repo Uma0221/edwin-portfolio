@@ -15,14 +15,15 @@ module.exports = {
   },
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
-    indent: [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-        ignoredNodes: ['ConditionalExpression'],
-      },
-    ],
+    indent: 'off',
+    // indent: [
+    //   'error',
+    //   2,
+    //   {
+    //     SwitchCase: 1,
+    //     ignoredNodes: ['ConditionalExpression'],
+    //   },
+    // ],
     'linebreak-style': ['error', 'unix'],
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
