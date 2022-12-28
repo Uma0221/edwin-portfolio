@@ -9,6 +9,8 @@ function Skills() {
     <div className={styles.container}>
       <img className={styles.contentBG} src={contentBG}></img>
       <img className={styles.title} src={SkillsPNG}></img>
+      <div className={styles.ability}></div>
+      <div className={styles.tools}></div>
     </div>
   );
 }

@@ -45,6 +45,21 @@ export const setSidebarNavState = async (dispatch, options) => {
   }
 };
 
+export const setIntroState = async (dispatch, options) => {
+  dispatch({ type: Type.BEGIN_DATA_REQUEST });
+  const { introState } = options;
+
+  try {
+    dispatch({
+      type: Type.SET_INTRO_STATE,
+      payload: introState,
+    });
+    dispatch({ type: Type.SUCCESS_DATA_REQUEST });
+  } catch (error) {
+    dispatch({ type: Type.FAIL_DATA_REQUEST, payload: error });
+  }
+};
+
 export const setPortfolioNavState = async (dispatch, options) => {
   dispatch({ type: Type.BEGIN_DATA_REQUEST });
   const { portfolioNavState } = options;

@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.content_shadow {
+.window_shadow {
   position: relative;
   background-color: $third_content_color;
   width: 100%;
@@ -15,7 +15,7 @@
 
   border-radius: 14px;
 
-  .content{
+  .window{
     position: absolute;
     background-color: $secondary_bg_color;
     width: 100%;
@@ -47,6 +47,44 @@
 
       :last-child{
         background-color: white;
+      }
+    }
+
+    .content {
+      padding: 0 5%;
+      height: 88%;
+      width: 100%;
+
+      display: flex;
+
+      .controler {
+        width: 12%;
+        height: 100%;
+        padding: 6% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+        .triangle {
+          aspect-ratio: 1.2;
+          height: 16%;
+          background-color: $secondary_bg_color;
+          border: none;
+
+          background-image: url('../../asset/imgs/banner/triangle2.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+
+        .triangle_rotate{
+          transform: rotate(180deg);
+        }
+      }
+
+      .page {
+        width: 88%;
+        height: 100%;
       }
     }
   }

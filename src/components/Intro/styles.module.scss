@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.content_shadow {
+.window_shadow {
   position: relative;
   background-color: $secondary_bg_color;
   width: 100%;
@@ -14,7 +14,7 @@
 
   border-radius: 14px;
 
-  .content{
+  .window {
     position: absolute;
     background-color: $main_bg_color;
     width: 100%;
@@ -25,7 +25,7 @@
     top: -7%;
     left: -3.5%;
 
-    .titlebar{
+    .titlebar {
       height: 12%;
       width: 100%;
       background-color: $third_content_color;
@@ -35,7 +35,7 @@
       align-items: center;
       padding-left: 3%;
 
-      .circle{
+      .circle {
         aspect-ratio: 1;
         height: 40%;
         margin: 0 1%;
@@ -44,8 +44,244 @@
         background-color: $secondary_content_color;
       }
 
-      :last-child{
+      :last-child {
         background-color: white;
+      }
+    }
+
+    .content {
+      padding: 0 5%;
+      height: 88%;
+      width: 100%;
+
+      display: flex;
+
+      .controler {
+        width: 12%;
+        height: 100%;
+        padding: 6% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .triangle {
+          aspect-ratio: 1.2;
+          height: 16%;
+          background-color: $main_bg_color;
+          border: none;
+
+          background-image: url('../../asset/imgs/banner/triangle1.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+
+        .triangle_rotate {
+          transform: rotate(180deg);
+        }
+
+        .triangle_notshow {
+          pointer-events: none;
+          opacity: 0;
+        }
+      }
+
+      .page {
+        width: 88%;
+        height: 100%;
+      }
+
+      .page1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .headshot_bg2 {
+          aspect-ratio: 1;
+          width: 45%;
+          margin: 0 6%;
+          border-radius: 50%;
+          border: 2.5px solid $secondary_bg_color;
+          background-color: $secondary_content_color;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .headshot_bg1 {
+            aspect-ratio: 1;
+            width: 95%;
+            border-radius: 50%;
+            border: 2.5px solid $secondary_bg_color;
+            background-color: $main_bg_color;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .headshot {
+              aspect-ratio: 1;
+              width: 95%;
+              border-radius: 50%;
+              border: 2.5px solid $secondary_bg_color;
+              background-size: auto 100%;
+              background-image: url('../../asset/imgs/contact/Img_Profile2.png');
+            }
+          }
+        }
+
+        .intro_text {
+          width: 55%;
+          color: $secondary_bg_color;
+
+          .name {
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 6px;
+            padding: 10% 0;
+          }
+
+          .position_ch {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 2px;
+            padding: 1% 0;
+          }
+
+          .position_en {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 1.5px;
+            padding: 1% 0;
+          }
+        }
+      }
+
+      .page2 {
+        padding: 3% 0;
+
+        .title {
+          color: $secondary_bg_color;
+          font-size: 44px;
+          font-weight: 600;
+          line-height: 32px;
+          letter-spacing: 0px;
+
+          padding: 3% 0;
+        }
+
+        .degree {
+          padding: 1% 0;
+
+          .degree_ch {
+            color: $secondary_bg_color;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 3px;
+          }
+
+          .degree_en {
+            color: $secondary_text_color;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+
+      .page3 {
+        padding: 3% 0;
+
+        .title {
+          color: $secondary_bg_color;
+          font-size: 44px;
+          font-weight: 600;
+          line-height: 32px;
+          letter-spacing: 0px;
+
+          padding: 3% 0;
+        }
+
+        .hashtags {
+          padding: 1% 0;
+
+          .hashtags_line {
+            color: $secondary_bg_color;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 3px;
+          }
+        }
+
+        .trait {
+          padding: 3% 0;
+
+          .trait_item {
+            display: flex;
+
+            .trait_heading {
+              font-size: 26px;
+              font-weight: 600;
+              line-height: 32px;
+              letter-spacing: 3px;
+              color: $secondary_bg_color;
+
+              padding-right: 2%;
+            }
+
+            .trait_content {
+              font-size: 26px;
+              font-weight: 600;
+              line-height: 32px;
+              letter-spacing: 3px;
+              color: $secondary_text_color;
+            }
+          }
+        }
+      }
+
+      .page4 {
+        padding: 3% 0;
+
+        .title {
+          color: $secondary_bg_color;
+          font-size: 44px;
+          font-weight: 600;
+          line-height: 32px;
+          letter-spacing: 0px;
+
+          padding: 3% 0;
+        }
+
+        .items_ch {
+          padding: 1% 0;
+
+          .items_ch_line {
+            color: $secondary_bg_color;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 3px;
+          }
+        }
+
+        .items_en {
+          padding: 1% 0;
+
+          .items_en_line {
+            color: $secondary_text_color;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 1px;
+          }
+        }
       }
     }
   }

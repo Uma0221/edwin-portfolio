@@ -1,0 +1,32 @@
+[
+    {
+        "title": "PERSONALITY",
+        "hashtags": [
+            "#外向 #古靈精怪 #活潑 #跳慟",
+            "#完美主義者 #責任感"
+        ],
+        "trait": [
+            {
+                "heading": "MBTI人格",
+                "content": "ENFP"
+            },
+            {
+                "heading": "星座",
+                "content": "水瓶座"
+            }
+        ]
+    },
+    {
+        "title": "FIELDS of DESIGN",
+        "items_ch": [
+            "動態圖像、UI/UX、平面視覺、",
+            "遊戲視覺、互動設計、電腦繪圖、",
+            "3D建模、影片剪輯等"
+        ],
+        "items_en": [
+            "Motion Graphics, UI/UX, Visual Design,",
+            "Game Art, Interaction Design, Computer Sketch,",
+            "3D Modeling, Film Editing etc."
+        ]
+    }
+]
