@@ -12,9 +12,7 @@ function Intro() {
     dispatch,
   } = useContext(StoreContext);
 
-  useEffect(() => {
-    console.log(introState);
-  }, [introState]);
+  useEffect(() => {}, [introState]);
 
   return (
     <div className={styles.container}>
