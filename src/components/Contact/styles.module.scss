@@ -3,14 +3,25 @@
 
 .container {
   width: 100%;
-  background-color: $secondary_content_color;
+  position: relative;
+
+  .line {
+    height: 16px;
+    width: 100%;
+    background-color: $main_content_color;
+
+    position: absolute;
+    top: 7px;
+    left: 0;
+    z-index: 1;
+  }
 }
 
 .content {
   width: 100%;
   height: 100%;
-  padding: 64px 162px;
-  background-color: $main_text_color;
+  padding: 80px 162px 48px 162px;
+  background-color: $main_bg_color;
 }
 
 .contact_title {
@@ -21,7 +32,7 @@
 .contact_text {
   font-size: $p-main-size;
   font-weight: bold;
-  color: white;
+  color: $main_text_color;
   padding: 14px 0;
 }
 
@@ -36,52 +47,74 @@
     margin: 20px;
 
     border-radius: 50%;
-    border: 6px solid $third_content_color;
   }
 
   .contact_personalPhoto {
+    border: 6px solid $third_content_color;
+
     background-size: auto 100%;
     background-image: url('../../asset/imgs/contact/Img_Profile2.png');
   }
 
   .contact_link {
-    background-color: $secondary_content_color;
+    border: 6px solid $secondary_content_color;
+    background-color: $secondary_bg_color;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-
     position: relative;
+    transition: all 0.5s ease;
 
     div {
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
+      color: $third_content_color;
+
       position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 
-      background-color: rgba($color: #000000, $alpha: 0.5);
-      transition: all 0.2s ease;
-      opacity: 0;
-
-      &:hover {
-        opacity: 1;
-      }
+      transition: all 0.5s ease;
+      opacity: 1;
     }
 
     img {
       width: 100%;
       height: 100%;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      transition: all 0.5s ease;
+      position: absolute;
+      opacity: 0;
+    }
+
+    &:hover {
+      border: 6px solid $third_content_color;
+      background-color: $secondary_content_color;
+
+      div {
+        opacity: 0;
+      }
+
+      img {
+        opacity: 1;
+      }
     }
   }
 }
 
-.splitLine{
+.splitLine {
   display: flex;
   width: 100%;
-  background-color: $main_text_color;
+  background-color: $main_bg_color;
   justify-content: right;
 
-  img{
+  img {
     height: 32px;
   }
 }

@@ -10,6 +10,7 @@ import splitLinePNG from '../../asset/imgs/contact/Img_SplitLine.png';
 function Contact() {
   return (
     <div className={styles.container}>
+      <div className={styles.line}></div>
       <div className={styles.content}>
         <img className={styles.contact_title} src={titleContactPNG}></img>
         <div className={styles.contact_text}>
@@ -25,7 +26,7 @@ function Contact() {
             rel="noopener noreferrer"
             className={`${styles.contact_circle} ${styles.contact_link}`}
           >
-            <div></div>
+            <div>EMAIL</div>
             <img src={iconEmailPNG}></img>
           </a>
           <a
@@ -34,7 +35,7 @@ function Contact() {
             rel="noopener noreferrer"
             className={`${styles.contact_circle} ${styles.contact_link}`}
           >
-            <div></div>
+            <div>INSTAGRAM</div>
             <img src={iconInstagramPNG}></img>
           </a>
           <a
@@ -43,7 +44,7 @@ function Contact() {
             rel="noopener noreferrer"
             className={`${styles.contact_circle} ${styles.contact_link}`}
           >
-            <div></div>
+            <div>TELEGRAM</div>
             <img src={iconTelegramPNG}></img>
           </a>
         </div>

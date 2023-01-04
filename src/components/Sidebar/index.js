@@ -21,7 +21,9 @@ function Sidebar() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.name}></div>
+        <div className={styles.personal}>
+          <div className={styles.personalImg}></div>
+        </div>
 
         <div className={styles.nav}>
           {items.map((item, index) => (
