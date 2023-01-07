@@ -1,8 +1,15 @@
 import React, { useContext, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import styles from './styles.module.scss';
 
 import { StoreContext } from '../../store/reducer';
-import { setPortfolioNavState, setSidebarState } from '../../store/actions';
+import {
+  setPortfolioNavState,
+  setSidebarState,
+  setSidebarNavClick,
+  setSidebarNavState,
+} from '../../store/actions';
 
 import worksJson from '../../asset/json/works.json';
 
@@ -18,16 +25,22 @@ function Portfolio() {
     <div className={styles.container}>
       <div className={styles.nav}>
         {worksJson.map((works, index) => (
-          <div
+          <Link
+            to="/Portfolio"
             key={`collection_${index}`}
-            className={portfolioNavState == index ? `${styles.select}` : ''}
             onClick={() => {
               setPortfolioNavState(dispatch, { portfolioNavState: index });
+              setSidebarNavClick(dispatch, { sidebarNavClick: true });
+              setSidebarNavState(dispatch, { sidebarNavState: 1 });
               setSidebarState(dispatch, { sidebarState: false });
             }}
           >
-            {works.collection}
-          </div>
+            <div
+              className={portfolioNavState == index ? `${styles.select}` : ''}
+            >
+              {works.collection}
+            </div>
+          </Link>
         ))}
       </div>
       <div className={styles.works}>

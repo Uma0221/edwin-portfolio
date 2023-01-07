@@ -13,7 +13,7 @@ import styles from './styles.module.scss';
 
 import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact';
-import Sidebar from '../../components/Sidebar';
+import Sidebar from '../../components/HomeSidebar';
 import Intro from '../../components/Intro';
 import Experience from '../../components/Experience';
 import Skills from '../../components/Skills';
@@ -25,7 +25,7 @@ import painterGIF from '../../asset/imgs/banner/painter.gif';
 import lightGIF from '../../asset/imgs/banner/light.gif';
 import rockyManGIF from '../../asset/imgs/banner/rockyMan.gif';
 
-function Router() {
+function HomePage() {
   const imgWidth = 5481;
   const imgHeight = 740;
   const navigate = useNavigate();
@@ -96,22 +96,39 @@ function Router() {
 
   useEffect(() => {
     if (bgWidth > 0) {
-      if (scrollY < bgWidth - windowHeight * 0.85 && currentNavState != 0) {
-        navigate('/');
-        setCurrentNavState(0);
-      } else if (
-        scrollY >= bgWidth - windowHeight * 0.85 &&
-        scrollY <= bgWidth + portfolioHeight - windowHeight + 128 &&
-        currentNavState != 1
-      ) {
-        navigate('/Portfolio');
-        setCurrentNavState(1);
-      } else if (
-        scrollY > bgWidth + portfolioHeight - windowHeight + 128 &&
-        currentNavState != 2
-      ) {
-        navigate('/Contact');
-        setCurrentNavState(2);
+      if (portfolioHeight - windowHeight < 0) {
+        if (scrollY < bgWidth - windowHeight * 0.85 && currentNavState != 0) {
+          navigate('/');
+          setCurrentNavState(0);
+        } else if (
+          scrollY >= bgWidth - windowHeight * 0.85 &&
+          scrollY <= bgWidth &&
+          currentNavState != 1
+        ) {
+          navigate('/Portfolio');
+          setCurrentNavState(1);
+        } else if (scrollY > bgWidth && currentNavState != 2) {
+          navigate('/Contact');
+          setCurrentNavState(2);
+        }
+      } else {
+        if (scrollY < bgWidth - windowHeight * 0.85 && currentNavState != 0) {
+          navigate('/');
+          setCurrentNavState(0);
+        } else if (
+          scrollY >= bgWidth - windowHeight * 0.85 &&
+          scrollY <= bgWidth + portfolioHeight - windowHeight &&
+          currentNavState != 1
+        ) {
+          navigate('/Portfolio');
+          setCurrentNavState(1);
+        } else if (
+          scrollY > bgWidth + portfolioHeight - windowHeight &&
+          currentNavState != 2
+        ) {
+          navigate('/Contact');
+          setCurrentNavState(2);
+        }
       }
     }
   }, [scrollY]);
@@ -311,4 +328,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default HomePage;

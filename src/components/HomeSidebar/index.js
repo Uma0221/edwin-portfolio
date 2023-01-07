@@ -10,7 +10,7 @@ import {
   setSidebarState,
 } from '../../store/actions';
 
-function Sidebar() {
+function HomeSidebar() {
   const items = ['About', 'Portfolio', 'Contact'];
 
   const {
@@ -50,4 +50,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default HomeSidebar;
