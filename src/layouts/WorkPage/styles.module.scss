@@ -1,0 +1,69 @@
+@import '../../styles/color.scss';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 180px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: 1s;
+}
+
+.sidebar_open {
+  transform: translate(0, 0);
+}
+
+.sidebar_close {
+  transform: translate(-100%, 0);
+}
+
+.sidebar_button {
+  position: fixed;
+  top: 56px;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(white, 0);
+  z-index: 3;
+
+  .bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 8px;
+    background: $secondary_text_color;
+    transition: all 0.5s ease;
+    &:nth-child(1) {
+      border-radius: 4px;
+    }
+    &:nth-child(2) {
+      border-radius: 4px;
+    }
+  }
+}
+
+.arrow {
+  .bar:nth-child(1) {
+    transform: translateX(-7px) translateY(-6px) rotate(45deg) scaleX(0.8);
+  }
+  .bar:nth-child(2) {
+    transform: translateX(-7px) translateY(6px) rotate(-45deg) scaleX(0.8);
+  }
+}
+.cross {
+  .bar:nth-child(1) {
+    transform: translateX(-8px) rotate(45deg) scaleX(1.2);
+  }
+  .bar:nth-child(2) {
+    transform: translateX(-8px) rotate(-45deg) scaleX(1.2);
+  }
+}

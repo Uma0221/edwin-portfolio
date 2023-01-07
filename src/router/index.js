@@ -4,18 +4,24 @@ import { StoreProvider } from '../store/reducer';
 
 import path from './path';
 
-import HomePage from '../layouts/home';
+import HomePage from '../layouts/HomePage';
+import WorkPage from '../layouts/WorkPage';
 
 function Router() {
   return (
     <StoreProvider>
       <BrowserRouter>
         <Routes>
-          <Route path={path.home} element={<HomePage />}></Route>
+          <Route path={path.homePage} element={<HomePage />}></Route>
           <Route
             exact
-            path={`${path.home}/:navItem`}
+            path={`${path.homePage}/:navItem`}
             element={<HomePage />}
+          ></Route>
+          <Route
+            exact
+            path={`${path.workPage}/:collection`}
+            element={<WorkPage />}
           ></Route>
         </Routes>
       </BrowserRouter>

@@ -45,7 +45,14 @@ function Portfolio() {
       </div>
       <div className={styles.works}>
         {worksJson[portfolioNavState].works.map((work, index) => (
-          <div key={`work_${index}`} className={styles.work}>
+          <Link
+            to={`/Portfolio/${worksJson[portfolioNavState].collection}`}
+            key={`work_${index}`}
+            className={styles.work}
+            onClick={() => {
+              setSidebarState(dispatch, { sidebarState: false });
+            }}
+          >
             <div className={styles.work_bg}>
               <div className={styles.work_name}>{work.name}</div>
               <div className={styles.work_cover}>
@@ -54,7 +61,7 @@ function Portfolio() {
               </div>
             </div>
             <div className={styles.work_keywords}>{work.keywords}</div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
