@@ -15,7 +15,7 @@
 
   border-radius: 14px;
 
-  .window{
+  .window {
     position: absolute;
     background-color: $secondary_bg_color;
     width: 100%;
@@ -26,7 +26,7 @@
     top: -7%;
     left: -3.5%;
 
-    .titlebar{
+    .titlebar {
       height: 12%;
       width: 100%;
       background-color: $secondary_content_color;
@@ -36,7 +36,7 @@
       align-items: center;
       padding-left: 3%;
 
-      .circle{
+      .circle {
         aspect-ratio: 1;
         height: 40%;
         margin: 0 1%;
@@ -45,7 +45,7 @@
         background-color: $third_content_color;
       }
 
-      :last-child{
+      :last-child {
         background-color: white;
       }
     }
@@ -63,7 +63,7 @@
         padding: 6% 0;
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
+        justify-content: space-between;
 
         .triangle {
           aspect-ratio: 1.2;
@@ -77,14 +77,51 @@
           background-position: center;
         }
 
-        .triangle_rotate{
+        .triangle_rotate {
           transform: rotate(180deg);
+        }
+
+        .triangle_notshow {
+          pointer-events: none;
+          opacity: 0;
         }
       }
 
       .page {
         width: 88%;
         height: 100%;
+        display: flex;
+
+        .yearExp_block {
+          padding: 0 6%;
+          height: 28px;
+          overflow: hidden;
+
+          .year_exp {
+            color: $main_bg_color;
+            font-size: 32px;
+            font-weight: 900;
+            line-height: 28px;
+            letter-spacing: 1px;
+          }
+        }
+
+        .all_exp {
+          // margin-top: 6%;
+          overflow: hidden;
+
+          .exp {
+            padding-bottom: 5%;
+
+            .exp_line {
+              color: $main_bg_color;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 28px;
+              letter-spacing: 1px;
+            }
+          }
+        }
       }
     }
   }
