@@ -1,0 +1,587 @@
+[
+    {
+        "collection": "MOTION GRAPHICS",
+        "works": [
+            {
+                "name": "TEART介紹短片",
+                "year": "2019",
+                "keywords_row1": [
+                    "Product Introduction"
+                ],
+                "keywords_row2": [
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "介紹 Teart 產品的使用情境與用途",
+                "link_title": "YOUTUBE 影片連結",
+                "link": "https://youtu.be/5T3dQYePIG0",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "今晚我想睡飽介紹短片",
+                "year": "2019",
+                "keywords_row1": [
+                    "Product Introduction"
+                ],
+                "keywords_row2": [
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "介紹 睡ㄅ 產品的使用情境與用途",
+                "link_title": "YOUTUBE 影片連結",
+                "link": "https://youtu.be/oq_kVmt8ZMQ",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "被數位設計展覽宣傳短片",
+                "year": "2020",
+                "keywords_row1": [
+                    "Product Introduction"
+                ],
+                "keywords_row2": [
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "宣傳數位109級「被數位設計」畢業展，並展示展覽內各作品的集合短片",
+                "link_title": "畢業展粉專宣傳連結",
+                "link": "https://fb.watch/hVjxsT23_w/",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "DAILY WORKS",
+                "year": "2018 - ",
+                "keywords_row2": [
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "彙整日常的動態設計作品",
+                "link_title": "VIMEO 作品集",
+                "link": "",
+                "assignments_name": "個人作品"
+            }
+        ]
+    },
+    {
+        "collection": "UI／UX",
+        "works": [
+            {
+                "name": "TEART",
+                "year": "2019",
+                "keywords_row1": [
+                    "Human–Computer Interaction",
+                    "OpenHCI",
+                    "Interaction Design"
+                ],
+                "keywords_row2": [
+                    "Arduino",
+                    "Photoshop",
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "現代科技發達，人們已習慣使用科技產品進行日常溝通，甚至生活在同一屋簷下的家人，亦常使用手機通訊軟體交談。再者，情緒是很難以輕易傳達的一種表現,有時因訊息的情緒猜測產生衝突或使彼此誤解更深。\n\n綜合上述，家人間因科技縮短了時空距離卻拉長了彼此心理的距離，雙方親口聊天的時間頻率屈指可數。Teart 能將傳給對方的訊息正確分析，並轉化成一杯有情緒的茶水，通知對方領取以及詢問是否要與自己一人一杯茶水好好面對面聊天。\n\n此專案於 OpenHCI‘19 工作坊期間與後一月，和組員們共同完成，包含前期議題探討、思考解方、後期製作原型與優化，後於 TAICHI‘19 國際人機互動研討會中成果發表。",
+                "link_title": "產品介紹短片連結",
+                "link": "https://youtu.be/5T3dQYePIG0",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "主視覺設計、動態設計",
+                        "division_person": "黃宥穎 戴彤恩"
+                    },
+                    {
+                        "division_title": "裝置外觀設計、建模",
+                        "division_person": "吳東昇"
+                    },
+                    {
+                        "division_title": "程式技術",
+                        "division_person": "黃柏豪 陳靖雯"
+                    },
+                    {
+                        "division_title": "海報設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "DM設計",
+                        "division_person": "黃宥穎 蘇儀真"
+                    },
+                    {
+                        "division_title": "技術/設計指導(TA)",
+                        "division_person": "馬翊 蕭依涵"
+                    }
+                ]
+            },
+            {
+                "name": "HAPPY HABITS",
+                "year": "2019",
+                "keywords_row1": [
+                    "LINE Chatbot"
+                ],
+                "keywords_row2": [
+                    "Figma",
+                    "Illustrator"
+                ],
+                "intro": "自制力不足、缺乏足夠的誘因等是現代學生族群養成好習慣的阻礙，Happy Habits 提供使用者一個可以養成習慣的平台，能幫助他們使用 LINE 的聊天機器人與有共同目標的朋友制定計劃一起培養好習慣，此外團隊賦予聊天機器人——錫罐吐寶寶鮮明的品牌性格，錫罐吐寶寶是個性活潑、調皮卻也直爽的聊天機器人，能夠提升使用者們在聊天室中的新鮮感以及趣味性，讓使用者們更願意在群組裡活躍對話",
+                "link_title": "PROTOTYPE",
+                "link": "https://www.figma.com/file/qLeSfMNgs6kl7yDq546Tmq/Happy-Habits?node-id=0%3A1&t=8SJO2Fzh0vyVHD6t-1",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "使用者調查/研究",
+                        "division_person": "鄒采倪 張仲毅 黃宥穎"
+                    },
+                    {
+                        "division_title": "原型架構/設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "簡報設計",
+                        "division_person": "鄒采倪 黃宥穎"
+                    }
+                ]
+            },
+            {
+                "name": "收good",
+                "year": "2019",
+                "keywords_row1": [
+                    "LINE Chatbot"
+                ],
+                "keywords_row2": [
+                    "Figma",
+                    "Illustrator",
+                    "Photoshop"
+                ],
+                "intro": "收good 整合各大運送平台，能夠解決送貨員與收貨人間貨物運送過程的資訊透明度",
+                "link_title": "PROTOTYPE",
+                "link": "https://www.figma.com/proto/28EIlDrNn9QgiKltcQelXf/%E6%94%B6good_App?page-id=0%3A1&node-id=5%3A12&viewport=174%2C435%2C0.22&scaling=scale-down&starting-point-node-id=5%3A12&show-proto-sidebar=1",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "使用者量化調查",
+                        "division_person": "林庭羽 張仲毅 黃宥穎"
+                    },
+                    {
+                        "division_title": "使用者質化調查",
+                        "division_person": "林庭羽 張仲毅"
+                    },
+                    {
+                        "division_title": "原型架構/設計",
+                        "division_person": "黃宥穎"
+                    }
+                ]
+            },
+            {
+                "name": "政巡尋-政大失物協尋系統",
+                "year": "2019",
+                "keywords_row1": [
+                    "Web Design"
+                ],
+                "keywords_row2": [
+                    "Figma",
+                    "Illustrator",
+                    "Photoshop"
+                ],
+                "intro": "失物協尋是政大待改善的問題，政巡尋能夠提供政大學生最便利的遺失物協尋途徑",
+                "link_title": "PROTOTYPE",
+                "link": "https://www.figma.com/proto/JodgJT95RN0jZsm0LOBoQo/%E5%A4%B1%E7%89%A9%E5%8D%94%E5%B0%8B%E7%B3%BB%E7%B5%B1?page-id=0%3A1&node-id=10%3A2&viewport=882%2C378%2C0.1&scaling=scale-down&starting-point-node-id=10%3A2&show-proto-sidebar=1",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "使用者調查/研究",
+                        "division_person": "林亮妤 蔣翊亭 鄒采倪 黃宥穎"
+                    },
+                    {
+                        "division_title": "簡報設計",
+                        "division_person": "鄒采倪 黃宥穎"
+                    },
+                    {
+                        "division_title": "原型設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "企劃製作",
+                        "division_person": "林亮妤 蔣翊亭"
+                    },
+                    {
+                        "division_title": "海報設計",
+                        "division_person": "鄒采倪 黃宥穎"
+                    }
+                ]
+            },
+            {
+                "name": "今晚，我想睡飽",
+                "year": "2019",
+                "keywords_row1": [
+                    "Human–Computer Interaction",
+                    "跨界超越競賽",
+                    "Interaction Design"
+                ],
+                "keywords_row2": [
+                    "Figma",
+                    "Illustrator",
+                    "Photoshop",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "睡ㄅ是改變行為的設計，創造友善的睡眠環境，幫助失眠者建立睡眠儀式、斷開與床錯誤的連結，還你一覺好眠",
+                "link_title": "產品介紹短片連結",
+                "link": "https://youtu.be/oq_kVmt8ZMQ",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "使用者調查/研究",
+                        "division_person": "蔣翊亭 鄒采倪 黃宥穎"
+                    },
+                    {
+                        "division_title": "裝置設計程式技術",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "簡報設計",
+                        "division_person": "鄒采倪 黃宥穎"
+                    },
+                    {
+                        "division_title": "動態設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "指導教授",
+                        "division_person": "陳宜秀"
+                    }
+                ]
+            },
+            {
+                "name": "小王子展覽頭貼製作網頁",
+                "year": "2022",
+                "keywords_row1": [
+                    "Web Design"
+                ],
+                "keywords_row2": [
+                    "Figma",
+                    "Illustrator",
+                    "Photoshop"
+                ],
+                "intro": "設計手機版的頭貼製作網頁，提供參展者客製化製作自己想要的「小王子」頭貼",
+                "link_title": "PROTOTYPE",
+                "link": "https://www.figma.com/proto/aWLopYCUfLY5GJg8fmc0LB/The-Little-Prince-Profile-Maker-Web?page-id=0%3A1&node-id=41%3A206&viewport=106%2C163%2C0.27&scaling=scale-down&starting-point-node-id=41%3A38",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "Mcdonalds Web Redesign",
+                "year": "2019",
+                "keywords_row1": [
+                    "Web Design"
+                ],
+                "keywords_row2": [
+                    "Illustrator",
+                    "Photoshop"
+                ],
+                "intro": "以深色模式再設計台灣的麥當勞官方網站",
+                "link_title": "",
+                "link": "",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "主視覺設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "網頁排版程式",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "網頁動態程式",
+                        "division_person": "郭昀甄"
+                    },
+                    {
+                        "division_title": "後台技術",
+                        "division_person": "郭昀甄"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "collection": "VISUAL DESIGN",
+        "works": [
+            {
+                "name": "被數位設計 Trap",
+                "year": "2019",
+                "keywords_row1": [
+                    "主視覺",
+                    "畢業展",
+                    "新一代設計展"
+                ],
+                "keywords_row2": [
+                    "Illustrator",
+                    "AfterEffect",
+                    "Premiere"
+                ],
+                "intro": "主視覺 被數位設計 以詼諧、跳脫的視覺呈現方式設計，欲展現 109 級數位系特有的風格，人手從背後突襲並刺穿表情疲倦的主角，主要想傳達大學的我們就如同視覺圖的主角臉上有著滿滿的倦怠，曾度過無數未眠夜晚的我們終於迎來了展現最後成果的時刻，而傳達的概念更像是以自嘲的口吻笑著說出「你看，我們被數位設計了！」\n\n此專案為國北教大數位系畢業展與新一代設計展主視覺，入圍 2020 年新一代設計展金點新秀贊助特別獎",
+                "link_title": "畢業展粉專宣傳連結",
+                "link": "https://fb.watch/hVjxsT23_w/",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "DECO",
+                "year": "2019",
+                "keywords_row1": [
+                    "主視覺",
+                    "校內成果展",
+                    "聖誕晚會"
+                ],
+                "keywords_row2": [],
+                "intro": "主視覺 DECO 以電子電路元件、手機/電腦網頁、程式語言等各數位科技元素為設計概念",
+                "link_title": "",
+                "link": "",
+                "assignments_name": "個人作品"
+            }
+        ]
+    },
+    {
+        "collection": "GAME ART",
+        "works": [
+            {
+                "name": "Blue Remedy",
+                "year": "2019",
+                "keywords_row1": [
+                    "PC Game",
+                    "2D捲軸",
+                    "解謎",
+                    "動作",
+                    "冒險"
+                ],
+                "keywords_row2": [
+                    "Unity",
+                    "Photoshop",
+                    "ClipStudioPaint"
+                ],
+                "intro": "BlueRemedy 是一款結合冒險與解謎元素的2D捲軸遊戲，玩家以第三人稱化身為世界僅存的水滴 Oka ，借助 Oka 所擁有的三態特性，像是滲透作用、毛細現象等，角色可以在地圖上進行走、跑、跳、穿梭等行為解謎通關並使用技能消滅邪惡的怪物，同時找出遺失已久的記憶...\n\n此專案為大學時期之畢業專題作品，入圍 2020 年放視大賞第一階段遊戲類-創意企劃組與第二階段遊戲類-PC遊戲創作組",
+                "link_title": "遊戲粉絲專頁",
+                "link": "https://www.facebook.com/Fruitmen",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "主視覺 /介面 /場景設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "開場/轉場動畫",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "主角角色設計",
+                        "division_person": "涂佩瑜"
+                    },
+                    {
+                        "division_title": "怪物角色設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "主角 /場景 /特效程式",
+                        "division_person": "沈桓民"
+                    },
+                    {
+                        "division_title": "怪物 /介面/機關程式",
+                        "division_person": "郭昀甄"
+                    },
+                    {
+                        "division_title": "背景音樂",
+                        "division_person": "張育瑞"
+                    },
+                    {
+                        "division_title": "影片剪輯",
+                        "division_person": "黃宥穎"
+                    }
+                ]
+            },
+            {
+                "name": "fRUItmeN",
+                "year": "2019",
+                "keywords_row1": [
+                    "2.5D 橫向捲軸",
+                    "動作",
+                    "冒險"
+                ],
+                "keywords_row2": [
+                    "Unity",
+                    "Photoshop"
+                ],
+                "intro": "玩家化身為主角蘇菲在充滿災厄的中古歐洲使用豐饒力量對抗邪惡的勢力，蘇菲可以召喚水果人，並與其融合，利用不同水果的能力來打敗敵人。主角蘇菲目前能融合/變身的水果為蘋果蘇菲、榴槤蘇菲以及西瓜蘇菲，各水果具有相異的能力，蘋果能補較高的血量也能變成攻擊力較低的毒蘋果；榴蓮攻擊力較高，能夠把尖刺砸向敵人；西瓜主要強於防禦能變出西瓜盾牌。遊戲機制設有水果籃、新鮮度、季節系統以及豐饒度，水果籃可配對召喚順序讓玩家有策略性的選擇，在適當的時機使用不同的應對方式；新鮮度則為融合水果人後，水果的新鮮程度限制使用能力的多寡；季節系統意指不同季節產出不同的水果，因此只能召喚出該特定的水果；豐饒度則讓玩家非單一的遊戲目標，玩家需盡情探索地圖讓主角能夠走遍每個區域恢復世界生機\n\n遊戲美術為符合遊戲背景選擇飽和度較低的用色，並使用美式水彩插畫風格設計出場景與物件\n\n本專案為大學課堂期末專題，由於製作時程有限完整度相對較低，但因遊戲的企劃完整，團隊們希望能夠保留部分遊戲機制，沿用到後期生產的遊戲中，此作品為畢業專題 Blue Remedy 的前身",
+                "link_title": "遊戲 DEMO 連結",
+                "link": "https://youtu.be/-vMcPyxaIZc",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "主視覺 /介面 /場景設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "主角角色設計",
+                        "division_person": "涂佩瑜"
+                    },
+                    {
+                        "division_title": "怪物角色設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "主角 /場景 /特效程式",
+                        "division_person": "沈桓民"
+                    },
+                    {
+                        "division_title": "怪物 /介面/機關程式",
+                        "division_person": "郭昀甄"
+                    }
+                ]
+            },
+            {
+                "name": "DokiDoki心跳倒數計時",
+                "year": "2022",
+                "keywords_row1": [
+                    "對話式劇情",
+                    "恐怖解謎",
+                    "劇情選擇"
+                ],
+                "keywords_row2": [
+                    "JavaScript",
+                    "ClipStudioPaint"
+                ],
+                "intro": "DokiDoki心跳倒數計時是一款網頁版的對話式恐怖解謎遊戲，中間參雜許多不同遊玩方式的小遊戲。玩家化身為主角的好朋友，故事開始得知好友近日有三名追求者並詢問你的意見，她聽從建議後決定跟對方交往並進入熱戀，但你逐漸發現好友的行為開始變得奇怪...\n\n遊戲的設計理念源自於社會上有許多人會譴責遭遇情感暴力的受害者，認為會選擇「恐怖情人」，是因為他們本身性格也有問題，才會吸引到不好的對象，因此我們讓玩家以第三人的視角呈現朋友與「恐怖情人」的交往過程，讓玩家了解到恐怖情人不易覺察也藉以扭轉大眾的錯誤認知。\n\n此專案為研究所課堂的期末專題，與較多組員共同協作",
+                "link_title": "遊戲 DEMO 連結",
+                "link": "https://youtu.be/gwgjHzrumWY",
+                "assignments_name": "共同發想",
+                "assignments_division": [
+                    {
+                        "division_title": "主視覺 /介面設計",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "遊戲視覺素材(除第六幕)",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "程式整合",
+                        "division_person": "陳昱安"
+                    },
+                    {
+                        "division_title": "第六幕視覺素材",
+                        "division_person": "鞏持靚"
+                    },
+                    {
+                        "division_title": "故事劇情",
+                        "division_person": "黃淳妤 林庭羽"
+                    },
+                    {
+                        "division_title": "第一/二幕遊戲程式",
+                        "division_person": "黃淳妤 林庭羽"
+                    },
+                    {
+                        "division_title": "第三/四/五幕遊戲程式",
+                        "division_person": "莊景雲"
+                    },
+                    {
+                        "division_title": "第六/七幕遊戲程式",
+                        "division_person": "陳昱安"
+                    },
+                    {
+                        "division_title": "第八/九幕遊戲程式",
+                        "division_person": "林靖洋"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "collection": "ILLUSTRATION",
+        "works": [
+            {
+                "name": "Nosetopia",
+                "year": "2019 -",
+                "keywords_row1": [
+                    "LINE Stickers",
+                    "Yearbook",
+                    "IG Stories Cover"
+                ],
+                "keywords_row2": [
+                    "Photoshop",
+                    "ClipStudioPaint"
+                ],
+                "intro": "Nosetopia(鼻頭星球) 為原創插畫系列作品，此原創系列的特色為各個角色們皆有可愛顯著的大鼻子，作品其中包含LINE貼圖、班級紀念冊、Instagram精選動態封面等設計",
+                "link_title": "原創貼圖連結",
+                "link": "https://store.line.me/stickershop/author/2895967/zh-Hant",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "Sketch",
+                "year": "2016 -",
+                "intro": "彙整日常的素描及手繪作品",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "Daily Works",
+                "year": "2019",
+                "intro": "彙整日常的數位插畫作品",
+                "assignments_name": "個人作品"
+            }
+        ]
+    },
+    {
+        "collection": "3D MODLING",
+        "works": [
+            {
+                "name": "功夫熊貓場景",
+                "year": "2019",
+                "keywords_row1": [
+                    "電影場景",
+                    "Kung Fu Panda",
+                    "功夫熊貓"
+                ],
+                "keywords_row2": [
+                    "3D Max",
+                    "Photoshop"
+                ],
+                "intro": "還原夢工廠動畫公司的知名電影「功夫熊貓」中的名場景，包含和平谷與翡翠宮\n\n此專案是大學課堂的期中個人成果，製作時程為期一個禮拜",
+                "assignments_name": "個人作品"
+            },
+            {
+                "name": "霍爾的移動城堡",
+                "year": "2019",
+                "keywords_row1": [
+                    "電影場景",
+                    "宮崎駿",
+                    "霍爾的移動城堡"
+                ],
+                "keywords_row2": [
+                    "MAYA"
+                ],
+                "intro": "還原宮崎駿的知名動畫電影「霍爾的移動城堡」中的名場景，霍爾城堡的原型\n\n此專案是大學課堂的期末團體作品，期限將近製作時程非常緊湊，花費兩天學習MAYA同時製作完成",
+                "assignments_division": [
+                    {
+                        "division_title": "城堡白模",
+                        "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "貼圖",
+                        "division_person": "莊詠鈞"
+                    },
+                    {
+                        "division_title": "場景打光",
+                        "division_person": "莊詠鈞"
+                    }
+                ]
+            },
+            {
+                "name": "Daily Works",
+                "year": "2019",
+                "keywords_row2": [
+                    "3D Max"
+                ],
+                "intro": "集結日常的3D建模作品",
+                "assignments_name": "個人作品"
+            }
+        ]
+    }
+]

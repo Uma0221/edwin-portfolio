@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import { StoreContext } from '../../store/reducer';
 import { setSidebarState } from '../../store/actions';
 
+import InfoBox from '../../components/WorkInfoBox';
 import Sidebar from '../../components/WorkSidebar';
 
 function WorkPage() {
@@ -35,6 +36,10 @@ function WorkPage() {
         }
       >
         <Sidebar />
+      </div>
+
+      <div className={styles.InfoBox}>
+        <InfoBox />
       </div>
     </div>
   );
