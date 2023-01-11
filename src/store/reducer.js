@@ -11,6 +11,7 @@ const initialState = {
   introState: 0,
   expState: 0,
   portfolioNavState: 0,
+  workState: -1,
   requestdata: { loading: false, error: null },
 };
 
@@ -45,6 +46,11 @@ function reducer(state, action) {
       return {
         ...state,
         portfolioNavState: action.payload,
+      };
+    case Type.SET_WORK_STATE:
+      return {
+        ...state,
+        workState: action.payload,
       };
     case Type.BEGIN_DATA_REQUEST:
       return {

@@ -89,3 +89,18 @@ export const setPortfolioNavState = async (dispatch, options) => {
     dispatch({ type: Type.FAIL_DATA_REQUEST, payload: error });
   }
 };
+
+export const setWorkState = async (dispatch, options) => {
+  dispatch({ type: Type.BEGIN_DATA_REQUEST });
+  const { workState } = options;
+
+  try {
+    dispatch({
+      type: Type.SET_WORK_STATE,
+      payload: workState,
+    });
+    dispatch({ type: Type.SUCCESS_DATA_REQUEST });
+  } catch (error) {
+    dispatch({ type: Type.FAIL_DATA_REQUEST, payload: error });
+  }
+};

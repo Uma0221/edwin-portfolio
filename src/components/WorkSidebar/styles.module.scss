@@ -30,19 +30,19 @@
       line-height: 18px;
 
       color: $secondary_content_color;
-      border-bottom: 3px solid $secondary_content_color;
+      border-bottom: 3px solid $secondary_bg_color;
       opacity: 0.2;
     }
 
     &.select {
       div {
-        border-bottom: 3px solid $secondary_content_color;
         opacity: 1;
       }
     }
 
     &:hover {
       div {
+        border-bottom: 3px solid $secondary_content_color;
         opacity: 1;
       }
     }
