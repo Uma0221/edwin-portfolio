@@ -1,0 +1,160 @@
+[
+    {
+        "collection": "MOTION GRAPHICS",
+        "works": [
+            {
+                "name": "TEART介紹短片",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/5T3dQYePIG0",
+                        "caption": "產品介紹與使用情境短片"
+                    }
+                ]
+            },
+            {
+                "name": "今晚我想睡飽介紹短片",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/oq_kVmt8ZMQ",
+                        "caption": "產品介紹與使用情境短片"
+                    }
+                ]
+            },
+            {
+                "name": "被數位設計展覽宣傳短片",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/X2c-SexF2cw",
+                        "caption": "被數位設計 主視覺形象影片"
+                    }
+                ]
+            },
+            {
+                "name": "DAILY WORKS"
+            }
+        ]
+    },
+    {
+        "collection": "UI／UX",
+        "works": [
+            {
+                "name": "TEART",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/5T3dQYePIG0",
+                        "caption": "TEART 產品介紹短片"
+                    }
+                ]
+            },
+            {
+                "name": "HAPPY HABITS"
+            },
+            {
+                "name": "收good"
+            },
+            {
+                "name": "政巡尋-政大失物協尋系統"
+            },
+            {
+                "name": "今晚，我想睡飽",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/oq_kVmt8ZMQ",
+                        "caption": "睡ㄅ 產品介紹短片"
+                    }
+                ]
+            },
+            {
+                "name": "小王子展覽頭貼製作網頁"
+            },
+            {
+                "name": "Mcdonalds Web Redesign"
+            }
+        ]
+    },
+    {
+        "collection": "VISUAL DESIGN",
+        "works": [
+            {
+                "name": "被數位設計 Trap",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/X2c-SexF2cw",
+                        "caption": "被數位設計 主視覺形象影片"
+                    }
+                ]
+            },
+            {
+                "name": "DECO"
+            }
+        ]
+    },
+    {
+        "collection": "GAME ART",
+        "works": [
+            {
+                "name": "Blue Remedy",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/8QyXqVboxnY",
+                        "caption": "遊戲前導短片"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/SWjV_x4mRGg",
+                        "caption": "遊戲怪物角色/場景物件動態設計"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/hu-FSt5EIGQ",
+                        "caption": "遊戲操作短片"
+                    }
+                ]
+            },
+            {
+                "name": "fRUItmeN",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/-vMcPyxaIZc",
+                        "caption": "遊戲 DEMO 連結"
+                    }
+                ]
+            },
+            {
+                "name": "DokiDoki心跳倒數計時",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/gwgjHzrumWY",
+                        "caption": "遊戲 DEMO 連結"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "collection": "ILLUSTRATION",
+        "works": [
+            {
+                "name": "Nosetopia"
+            },
+            {
+                "name": "Sketch"
+            },
+            {
+                "name": "Daily Works"
+            }
+        ]
+    },
+    {
+        "collection": "3D MODLING",
+        "works": [
+            {
+                "name": "功夫熊貓場景"
+            },
+            {
+                "name": "霍爾的移動城堡"
+            },
+            {
+                "name": "Daily Works"
+            }
+        ]
+    }
+]

@@ -5,6 +5,7 @@ import { StoreContext } from '../../store/reducer';
 import { setSidebarState } from '../../store/actions';
 
 import InfoBox from '../../components/WorkInfoBox';
+import ImageBox from '../../components/WorkImageBox';
 import Sidebar from '../../components/WorkSidebar';
 
 function WorkPage() {
@@ -38,8 +39,14 @@ function WorkPage() {
         <Sidebar />
       </div>
 
-      <div className={styles.InfoBox}>
-        <InfoBox />
+      <div className={styles.content}>
+        <div className={styles.InfoBox}>
+          <InfoBox />
+        </div>
+
+        <div className={styles.ImageBox}>
+          <ImageBox />
+        </div>
       </div>
     </div>
   );

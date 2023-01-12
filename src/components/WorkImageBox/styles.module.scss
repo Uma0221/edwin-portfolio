@@ -1,0 +1,100 @@
+@import '../../styles/color.scss';
+@import '../../styles/font.scss';
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.carouselBox {
+  width: 100%;
+
+  .carouselInner {
+    width: 100%;
+    // display: flex;
+    // overflow: hidden;
+
+    // margin-right: -100%;
+    // backface-visibility: hidden;
+
+    .carouselItem {
+      // flex-shrink: 0;
+      // flex-grow: 0;
+      display: none;
+
+      &.select {
+        display: block;
+      }
+    }
+  }
+
+  .carouselIndicators {
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+
+    .circle {
+      width: 16px;
+      height: 16px;
+      margin: 0 3px;
+      border-radius: 50%;
+      border: 1.5px solid $secondary_bg_color;
+      background-color: $third_content_color;
+
+      &.select {
+        background-color: #f7a139;
+      }
+    }
+  }
+}
+
+.pictureContent {
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.pictureCaption {
+  padding: 0 32px;
+  width: 100%;
+  display: flex;
+
+  .pictureTitle {
+    width: 20%;
+
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: $secondary_bg_color;
+  }
+
+  .pictureInfo {
+    width: 80%;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: $secondary_bg_color;
+  }
+}
+
+.videoBox {
+  width: 100%;
+  padding-bottom: 26px;
+
+  .videoContent {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .videoCaption {
+    padding: 16px 28px;
+
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    color: $secondary_bg_color;
+  }
+}

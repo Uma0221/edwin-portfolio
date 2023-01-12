@@ -68,6 +68,12 @@
   }
 }
 
-.InfoBox{
-  width: 35%;
+.content {
+  display: flex;
+  .InfoBox {
+    width: 35%;
+  }
+  .ImageBox {
+    width: 49%;
+  }
 }
