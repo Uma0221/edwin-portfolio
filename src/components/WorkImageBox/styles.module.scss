@@ -7,81 +7,149 @@
 }
 
 .carouselBox {
-  width: 100%;
+  position: relative;
+  overflow: hidden;
 
-  .carouselInner {
-    width: 100%;
-    // display: flex;
-    // overflow: hidden;
+  .carouselItem {
+    position: absolute;
+    top: 0;
+    opacity: 0;
 
-    // margin-right: -100%;
-    // backface-visibility: hidden;
+    &.noMove {
+      opacity: 1;
+      left: 0;
+    }
 
-    .carouselItem {
-      // flex-shrink: 0;
-      // flex-grow: 0;
-      display: none;
+    &.RtoM {
+      opacity: 1;
+      animation: RtoM 1s ease-in-out forwards;
 
-      &.select {
-        display: block;
+      @keyframes RtoM {
+        from{
+          left: 100%;
+        }
+        to{
+          left: 0;
+        }
       }
     }
-  }
 
-  .carouselIndicators {
-    width: 100%;
-    padding: 8px 0;
-    display: flex;
-    justify-content: center;
+    &.LtoM {
+      opacity: 1;
+      animation: LtoM 1s ease-in-out forwards;
 
-    .circle {
-      width: 16px;
-      height: 16px;
-      margin: 0 3px;
-      border-radius: 50%;
-      border: 1.5px solid $secondary_bg_color;
-      background-color: $third_content_color;
+      @keyframes LtoM {
+        from{
+          left: -100%;
+        }
+        to{
+          left: 0;
+        }
+      }
+    }
 
-      &.select {
-        background-color: #f7a139;
+    &.MtoL {
+      opacity: 1;
+      animation: MtoL 1s ease-in-out forwards;
+
+      @keyframes MtoL {
+        from{
+          left: 0;
+        }
+        to{
+          left: -100%;
+        }
+      }
+    }
+
+    &.MtoR {
+      opacity: 1;
+      animation: MtoR 1s ease-in-out forwards;
+
+      @keyframes MtoR {
+        from{
+          left: 0;
+        }
+        to{
+          left: 100%;
+        }
       }
     }
   }
 }
 
-.pictureContent {
+.pictureBox {
+  width: 100%;
   aspect-ratio: 16/9;
-  width: 100%;
-  border-radius: 16px;
+
+  .pictureContent {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 16px;
+  }
 }
 
-.pictureCaption {
-  padding: 0 32px;
+.carouselIndicators {
   width: 100%;
+  padding: 8px 0;
   display: flex;
+  justify-content: center;
 
-  .pictureTitle {
-    width: 20%;
+  .circle {
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 1.5px solid $secondary_bg_color;
+    background-color: $third_content_color;
 
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
-    color: $secondary_bg_color;
+    &.select {
+      background-color: #f7a139;
+    }
   }
+}
 
-  .pictureInfo {
-    width: 80%;
+.captionBox {
+  width: 100%;
+  height: 28px;
 
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
-    color: $secondary_bg_color;
+  .captionContent {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+
+    .captionTitle {
+      margin-right: 16px;
+
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+      color: $secondary_bg_color;
+    }
+
+    .captionbtn {
+      border: none;
+      background-color: $secondary_bg_color;
+      padding: 4px 22px;
+
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: $main_bg_color;
+
+      // .captionInfo {
+      //   font-weight: 500;
+      //   font-size: 18px;
+      //   line-height: 32px;
+      //   color: $secondary_bg_color;
+      // }
+    }
   }
 }
 
 .videoBox {
   width: 100%;
-  padding-bottom: 26px;
+  padding-top: 36px;
 
   .videoContent {
     aspect-ratio: 16/9;

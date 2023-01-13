@@ -39,6 +39,28 @@
         "works": [
             {
                 "name": "TEART",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Tx98hbcw9SG_KMdGl3xoPwaqv5uUdnpT",
+                        "title": "視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1dLmfJ4hJrlUB9HVSLtXMPkpearjOqMUb",
+                        "title": "設計概念解說圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1TOWtOf4_ho1p6KUlRZGyTjUwd_bh3-ck",
+                        "title": "技術解說圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Asi1mLeIMj7aqHw0A36OYKpzOQP8yzN_",
+                        "title": "使用情境圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1TLAs0XzARi5I750L45THzMexyLEzOd-c",
+                        "title": "產品DM"
+                    }
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/5T3dQYePIG0",
@@ -47,16 +69,93 @@
                 ]
             },
             {
-                "name": "HAPPY HABITS"
+                "name": "HAPPY HABITS",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1HRdrfnE6W2UazuXp-GE6zT-wVPnxeC--",
+                        "title": "視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1qLjORobWaXzwnP77gxhwAF6rncJxP3MA",
+                        "title": "使用者研究"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1av-WjvPBwPs8UOFfhKMy5c_BGO9t08Xs",
+                        "title": "人物誌"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=17CjF8g1Gl297J-4wNyATWlkE8fihaHEM",
+                        "title": "使用介面-1"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1oPmj9hosR14PGDGhcq7dxtigMlylNoBz",
+                        "title": "使用介面-2"
+                    }
+                ]
             },
             {
-                "name": "收good"
+                "name": "收good",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1YRg1yOmo47rdUWVGP4suJf5jrtK0KBTI",
+                        "title": "視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1xOaNpKg5oi9ezkxoVcojIElzh2mx4U8-",
+                        "title": "使用者研究"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1vNEHQyFgP3aDsq8X9jRotteuRHew2nft",
+                        "title": "使用者介面-主頁"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1H2np78lQVTwpxHcR4ouupWCiBHZeBjVq",
+                        "title": "使用者介面-資訊頁"
+                    }
+                ]
             },
             {
-                "name": "政巡尋-政大失物協尋系統"
+                "name": "政巡尋-政大失物協尋系統",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1kt8FTRDKiw6pSxsNrjyklLFrecXYtcVr",
+                        "title": "主視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1cCHqLQG7LsAhRjzgHp_LkARRBP1JIDHR",
+                        "title": "設計概念圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=13d1SM6SbTtXimWa0ij4tx9awvTRvcNQ0",
+                        "title": "使用/介面流程圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1DQxUkLgvsfblf7kwanHGJG5ly346Jw7R",
+                        "title": "使用介面"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1829Xvj_-abydC5IqsbeoozL_27qTP6wr",
+                        "title": "易用性評估/優化"
+                    }
+                ]
             },
             {
                 "name": "今晚，我想睡飽",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Nly4a7M9Bk0skEKe1SfRVQF0QschgORp",
+                        "title": "主視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1zYHXJTxZzCvP5HwVxI7BtTVXAc5LYi06",
+                        "title": "產品概念圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1VJLl0ezToaBnrA8dZ-531gf7cPzrQlZm",
+                        "title": "使用流程圖"
+                    }
+
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/oq_kVmt8ZMQ",
@@ -65,7 +164,17 @@
                 ]
             },
             {
-                "name": "小王子展覽頭貼製作網頁"
+                "name": "小王子展覽頭貼製作網頁",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1l1lYG1EAONwNwM6ORC9J2sOf7aJXLvBj",
+                        "title": "手機網頁介面"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Gvs9UL079pS1btGeEMirXCtwRIjjLkSH",
+                        "title": "頭貼製作元件"
+                    }
+                ]
             },
             {
                 "name": "Mcdonalds Web Redesign"
@@ -77,6 +186,20 @@
         "works": [
             {
                 "name": "被數位設計 Trap",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=15_d9ZnQDawR_LUmtLACqNeGDPXYT4f8q",
+                        "title": "被數位設計主視覺圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1QvNFpvQG6ajtajer0NtkFCoIJxBWcZ8-",
+                        "title": "粉絲專頁與頭貼視覺設計"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1cebec80bo3ClLIKnJibuP4bi3iQgKxVM",
+                        "title": "畢業展視覺輸出"
+                    }
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/X2c-SexF2cw",
@@ -85,7 +208,25 @@
                 ]
             },
             {
-                "name": "DECO"
+                "name": "DECO",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1svHQm7Nc0fQF_Jn3WspE5HtnYJjLSnhs",
+                        "title": "主視覺概念圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1QI3Oa50Lrclsx1IKo5VyVuxiNUlD-Y7h",
+                        "title": "校內展主視覺圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1JLWFKXPXGGN8bOirY_xJhUU7bi08nozs",
+                        "title": "校內展海報與EDM附圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1vAnJNv0SkPG3y7YWSYgpA68-_bPd_ddw",
+                        "title": "聖誕晚會主視覺圖"
+                    }
+                ]
             }
         ]
     },
@@ -94,6 +235,24 @@
         "works": [
             {
                 "name": "Blue Remedy",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1r_xzndt28VrhMklBYrJaxLjboJ5U-siH",
+                        "title": "遊戲海報"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=164qYe8oUuv-P7_5KakWsVO_HXSp3GOf4",
+                        "title": "遊戲教學關場景(春)"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1BlSMm27-qbpOBF3jje9UcwQBrt3PrNJX",
+                        "title": "遊戲第一關場景(秋)"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1TY2ncPggpZwnLbGEjT5zPMWgelz7GecH",
+                        "title": "遊戲第一關場景(冬)"
+                    }
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/8QyXqVboxnY",
@@ -111,6 +270,20 @@
             },
             {
                 "name": "fRUItmeN",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1_sS75qEfNzllAknvwyKBxDscbxqK6mdk",
+                        "title": "遊戲海報"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1dkis8ZWSmn99MNSpY725ZP1JmP08ElY3",
+                        "title": "遊戲主介面"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1JCsrI_2HNcx3SRkNtlu8t7icWM9hCv4k",
+                        "title": "角色與場景物件"
+                    }
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/-vMcPyxaIZc",
@@ -120,6 +293,28 @@
             },
             {
                 "name": "DokiDoki心跳倒數計時",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1PS4ssSYNUv05iG0QRLtdl5QRi2zlqKqT",
+                        "title": "遊戲視覺形象圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Y21BCM9Z5atHTIsksLC8eR11cnV4Gfua",
+                        "title": "遊戲人物設定表"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1qAfokDkcjE7YSo6HjG5Y25kbTxxds8cR",
+                        "title": "遊戲流程"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1-M6jFEhvvT7Gql2zOfQ_mmqRyrIVlUtl",
+                        "title": "遊戲第三幕"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1mReVZRIuHvGDajNySVbGtScm7l6cUDGQ",
+                        "title": "遊戲第五幕"
+                    }
+                ],
                 "videos": [
                     {
                         "url": "https://www.youtube.com/embed/gwgjHzrumWY",
@@ -133,13 +328,99 @@
         "collection": "ILLUSTRATION",
         "works": [
             {
-                "name": "Nosetopia"
+                "name": "Nosetopia",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1UKqiXp0dn_qwdo4WeWZlLOvE_rhngden",
+                        "title": "LINE 貼圖"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1l44OVvFUiVHKmskefLbFi8E-lOHXFBqG",
+                        "title": "班級紀念冊"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=18uLLk7SY_w864xO90yivzdI9dBt4jXZR",
+                        "title": "IG 精選封面"
+                    }
+                ]
             },
             {
-                "name": "Sketch"
+                "name": "Sketch",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Yc5mtlL3mHiQc-FwJrmvUXy5Gy_2GJeJ",
+                        "title": "搶救餅乾"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1SlOI9-woCLc7YBQV6nBSZjoLKFGOPF6K",
+                        "title": "落葉"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1b613-ZB3daBsDPZtRg9lYU330WZzqvsh",
+                        "title": "文具塔"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1OjungJJO9-SbgxIvL8H0kBgoB8WCnfdv",
+                        "title": "水果籃"
+                    }
+                ]
             },
             {
-                "name": "Daily Works"
+                "name": "Daily Works",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1RnTuGdCFkAts2NvlTxl4qAq5NBcB5j18",
+                        "title": "岸邊的她"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1ZJi4Cq59BwOJzZl61Y4CUmD2oIgFwOIQ",
+                        "title": "岸邊的他"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1KodadmfqsNx9cIMwO_yU4vBpaiGgha_2",
+                        "title": "玫瑰色的血泊"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=19e2sLmFIH6VIX-Q1c3JcPgcAjEXQqXX-",
+                        "title": "血色的玫瑰"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=18rOLfaBK9vcnyX_8EL8kqpmNtgnbRa_W",
+                        "title": "窒息"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1ETamriCmXpVBfsjTSD3rSN1JFtT4a6nx",
+                        "title": "台上的歌手"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1RrXZfkyy1OkicdSr6rFj78yQCbhFkXAC",
+                        "title": "舊屋的床位"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=134fLevkU22VEgeiKRNF7jtImAii-4HZ7",
+                        "title": "鐵皮屋"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1ZInLPHoBnBGcuMFBF-S7q53wFQU9LDE3",
+                        "title": "火龍"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=16WHy7yg4AIlZonqgqMgnfmx_sNkI6eoR",
+                        "title": "我們與惡的距離"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1hWm3PBaTO981xgubTsaPmmWFCPXCklYF",
+                        "title": "18歲的初戀"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1vvIeCOKYXVZeQiCBnBaqqO_Lp-pJPd1B",
+                        "title": "復活的埃及豔后"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1VLWBbCHy2XRFLtDiw0f4bkluFjipgBwK",
+                        "title": "聖誕不倒翁"
+                    }
+                ]
             }
         ]
     },
@@ -147,13 +428,79 @@
         "collection": "3D MODLING",
         "works": [
             {
-                "name": "功夫熊貓場景"
+                "name": "功夫熊貓場景",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1qnu64AWqy6z52_aDfSb-pSEPm3lzLFe3",
+                        "title": "和平谷與翡翠宮場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1kplRzZ6puVnAPBwxh9cHu2shnDOBk0pD",
+                        "title": "翡翠宮場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1borTqkdAaCXfCSDkjjKPBFiSfMP3sQ5U",
+                        "title": "和平谷場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1NCexDgyZveNCghGv8mdeI_Q9rKDAGcI1",
+                        "title": "和平谷場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1ksKBOYCW1pMDygzbw1rcRs8CzdiUhlho",
+                        "title": "和平谷與翡翠宮場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1310_080I432q7lNnOdYlvAdIfjdiH5Nb",
+                        "title": "翡翠宮場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1EUbx8alQt6XYiZKSpFLjkIKrUTpW7vfg",
+                        "title": "場景透視結構圖"
+                    }
+                ]
             },
             {
-                "name": "霍爾的移動城堡"
+                "name": "霍爾的移動城堡",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1M4dcxNxtdkGvMQcltRQkph4goRNGeqG_",
+                        "title": "山坡上的城堡場景"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1Nph83BYPTgj52XmHT0BdM-G13A2694AI",
+                        "title": "城堡白模"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1W5yHa98gGIY_2pvnBrkeuTu6__Hj0Jyf",
+                        "title": "未完成的城堡白模"
+                    }
+                ]
             },
             {
-                "name": "Daily Works"
+                "name": "Daily Works",
+                "pictures": [
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1tbn0o4RIU5Zw2jZZWJ79TUk03tR6b2Gg",
+                        "title": "樹樁與斧-1"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1QlOTKsZsVgTMoeLJHic8EMQhPzxUljvL",
+                        "title": "樹樁與斧-2"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1sVvz9Do9wxsrEFOoVuaPX3HRiT0p7QIO",
+                        "title": "水果盤"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1kTpBFWtsvjYhNGvUdfDEJYmKwCTUvr-o",
+                        "title": "古代客棧-1"
+                    },
+                    {
+                        "url": "https://drive.google.com/uc?export=view&id=1iCDbiA_6mE-vsZjlQLuZIBD7_iJWl6GN",
+                        "title": "古代客棧-2"
+                    }
+                ]
             }
         ]
     }
