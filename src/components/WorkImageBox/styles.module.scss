@@ -87,11 +87,11 @@
 .pictureBox {
   width: 100%;
   aspect-ratio: 16/9;
+  border-radius: 16px;
 
   .pictureContent {
     width: 100%;
     aspect-ratio: 16/9;
-    border-radius: 16px;
   }
 }
 
@@ -137,11 +137,25 @@
       border: none;
       background-color: $secondary_bg_color;
       padding: 4px 22px;
+      
+      display: flex;
+      align-items: center;
 
-      font-weight: 700;
-      font-size: 12px;
-      line-height: 15px;
-      color: $main_bg_color;
+      .btnText{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: $main_bg_color;
+      }
+
+      .btnVector{
+        padding: 0 4px;
+        height: 6px;
+
+        &.rotate{
+          transform: rotate(180deg);
+        }
+      }
     }
   }
 }
@@ -157,6 +171,7 @@
   .captionInfo {
     border: 1.5px solid $main_content_color;
     border-radius: 10px;
+    margin: 2px 0;
     padding: 12px 16px;
 
     font-weight: 500;

@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import { StoreContext } from '../../store/reducer';
 
 import worksImageJson from '../../asset/json/worksImage.json';
+import vector from '../../asset/imgs/vector.png';
 
 function WorkInfoBox() {
   const {
@@ -143,7 +144,20 @@ function WorkInfoBox() {
                         setInfoFlag(!infoFlag);
                       }}
                     >
-                      {infoFlag ? '收起資訊 V' : '查看更多 N'}
+                      {infoFlag ? (
+                        <>
+                          <div className={styles.btnText}>收起資訊</div>
+                          <img
+                            src={vector}
+                            className={`${styles.btnVector} ${styles.rotate}`}
+                          ></img>
+                        </>
+                      ) : (
+                        <>
+                          <div className={styles.btnText}>查看更多</div>
+                          <img src={vector} className={styles.btnVector}></img>
+                        </>
+                      )}
                     </button>
                   ) : (
                     <></>
@@ -157,7 +171,7 @@ function WorkInfoBox() {
             className={styles.infoBox}
             style={
               refHeight != 0 && infoFlag
-                ? { height: refHeight + 27 }
+                ? { height: refHeight + 14 }
                 : { height: '0' }
             }
           >

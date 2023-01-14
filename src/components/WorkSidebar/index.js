@@ -7,6 +7,7 @@ import { StoreContext } from '../../store/reducer';
 import { setSidebarState, setWorkState } from '../../store/actions';
 
 import worksJson from '../../asset/json/works.json';
+import home_btn from '../../asset/imgs/home_btn.png';
 
 function WorkSidebar() {
   const navigate = useNavigate();
@@ -51,7 +52,7 @@ function WorkSidebar() {
               setWorkState(dispatch, { workState: -1 });
             }}
           >
-            <div>HOME</div>
+            <img src={home_btn} className={styles.home_btn}></img>
           </Link>
         </div>
       </div>
