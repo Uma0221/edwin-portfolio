@@ -12,9 +12,11 @@ function WorkInfoBox() {
 
   const [carouselOldIndex, setcarouselOldIndex] = useState(0);
   const [carouselClickIndex, setcarouselClickIndex] = useState(0);
-  const [infoFlag, setInfoFlag] = useState(false);
+  const [infoIndex, setInfoIndex] = useState(0);
 
+  const [infoFlag, setInfoFlag] = useState(false);
   const [refHeight, setRefHeight] = useState(0);
+
   const ref = useRef(null);
 
   useEffect(() => {
@@ -49,7 +51,7 @@ function WorkInfoBox() {
     if (ref.current) {
       setRefHeight(ref.current.clientHeight);
     }
-  }, [ref.current?.clientHeight]);
+  }, [ref.current?.clientHeight, infoIndex]);
 
   useEffect(() => {}, [refHeight]);
 
@@ -97,9 +99,9 @@ function WorkInfoBox() {
                       : styles.circle
                   }
                   onClick={() => {
-                    setInfoFlag(false);
                     setcarouselOldIndex(carouselClickIndex);
                     setcarouselClickIndex(index);
+                    setInfoFlag(false);
                   }}
                 ></button>
               ),
@@ -135,6 +137,9 @@ function WorkInfoBox() {
                     <button
                       className={styles.captionbtn}
                       onClick={() => {
+                        if (!infoFlag) {
+                          setInfoIndex(index);
+                        }
                         setInfoFlag(!infoFlag);
                       }}
                     >
@@ -151,7 +156,7 @@ function WorkInfoBox() {
           <div
             className={styles.infoBox}
             style={
-              infoFlag && refHeight != 0
+              refHeight != 0 && infoFlag
                 ? { height: refHeight + 27 }
                 : { height: '0' }
             }
@@ -159,7 +164,7 @@ function WorkInfoBox() {
             <div ref={ref} className={styles.captionInfo}>
               {
                 worksImageJson[portfolioNavState].works[workState].pictures[
-                  carouselClickIndex
+                  infoIndex
                 ].info
               }
             </div>
