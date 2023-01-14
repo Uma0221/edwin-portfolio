@@ -42,23 +42,28 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Tx98hbcw9SG_KMdGl3xoPwaqv5uUdnpT",
-                        "title": "視覺形象圖"
+                        "title": "視覺形象圖",
+                        "info": "TEART 情緒飲水機視覺形象圖，原型機體以湖水藍與灰白色為主色，左上角為產品標準字"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1dLmfJ4hJrlUB9HVSLtXMPkpearjOqMUb",
-                        "title": "設計概念解說圖"
+                        "title": "設計概念解說圖",
+                        "info": "Teart 希望能在科技冷漠的環境下，透過人機互動促進人人互動，消彌家庭溝通屏障與手機訊息情緒的臆測，並替家人間的衝突進行緩衝避免帶來立即的傷害。"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1TOWtOf4_ho1p6KUlRZGyTjUwd_bh3-ck",
-                        "title": "技術解說圖"
+                        "title": "技術解說圖",
+                        "info": "產品的實現主要使用物聯技術以及文字、情緒的資料分析"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Asi1mLeIMj7aqHw0A36OYKpzOQP8yzN_",
-                        "title": "使用情境圖"
+                        "title": "使用情境圖",
+                        "info": "使用情境主要可應用在各個家庭當中，產品能夠幫助家庭成員製造更多理性對談的機會"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1TLAs0XzARi5I750L45THzMexyLEzOd-c",
-                        "title": "產品DM"
+                        "title": "產品DM",
+                        "info": "專案發表於 TAICHI'19 國際人機互動研討會，圖中為會議現場發放之宣傳品"
                     }
                 ],
                 "videos": [
@@ -73,23 +78,28 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1HRdrfnE6W2UazuXp-GE6zT-wVPnxeC--",
-                        "title": "視覺形象圖"
+                        "title": "視覺形象圖",
+                        "info": "聊天機器人用色除為配合 LINE 原有的主色外，設定明亮的綠色與鵝黃色更凸顯品牌性格"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1qLjORobWaXzwnP77gxhwAF6rncJxP3MA",
-                        "title": "使用者研究"
+                        "title": "使用者研究",
+                        "info": "專案的使用者調查包括問卷以及客群訪談，經由研究後發現使用者的痛點以及目標"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1av-WjvPBwPs8UOFfhKMy5c_BGO9t08Xs",
-                        "title": "人物誌"
+                        "title": "人物誌",
+                        "info": "根據使用者研究描繪出較具體的客群輪廓"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=17CjF8g1Gl297J-4wNyATWlkE8fihaHEM",
-                        "title": "使用介面-1"
+                        "title": "使用介面-1",
+                        "info": "使用者能夠在多人群組中呼叫聊天機器人查看養成習慣的介面，內容分為我的習慣、新增習慣、今日待辦事項、已完成的目標以及查看記錄所有人目標的看板"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1oPmj9hosR14PGDGhcq7dxtigMlylNoBz",
-                        "title": "使用介面-2"
+                        "title": "使用介面-2",
+                        "info": "查看他人目標也可同時自我檢視是否也需要培養該習慣，聊天機器人會適時給予鼓勵，抑或是幽默地督促使用者是時候培養習慣了"
                     }
                 ]
             },
@@ -98,19 +108,23 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1YRg1yOmo47rdUWVGP4suJf5jrtK0KBTI",
-                        "title": "視覺形象圖"
+                        "title": "視覺形象圖",
+                        "info": "品牌 LOGO 用色為黃與藍色對比，結合送貨的元素，包含封箱膠帶、貨車輪胎以及道路"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1xOaNpKg5oi9ezkxoVcojIElzh2mx4U8-",
-                        "title": "使用者研究"
+                        "title": "使用者研究",
+                        "info": "專案的使用者調查包括問卷以及客群訪談，經由研究後發現使用者的痛點在於資訊的不對稱"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1vNEHQyFgP3aDsq8X9jRotteuRHew2nft",
-                        "title": "使用者介面-主頁"
+                        "title": "使用者介面-主頁",
+                        "info": "主頁介面主要包含訂單/預計時間與司機的路線圖，並替司機主動通知送貨資訊"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1H2np78lQVTwpxHcR4ouupWCiBHZeBjVq",
-                        "title": "使用者介面-資訊頁"
+                        "title": "使用者介面-資訊頁",
+                        "info": "訂單的資訊頁面則可幫助使用者了解特定一筆訂單的配送進度，並可在現有的路徑上更改收貨的地點"
                     }
                 ]
             },
@@ -119,23 +133,28 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1kt8FTRDKiw6pSxsNrjyklLFrecXYtcVr",
-                        "title": "主視覺形象圖"
+                        "title": "主視覺形象圖",
+                        "info": "政巡尋 LOGO 以品牌 Slogan 為設計理念，在汪洋中「巡」覓遺失物，而介面為便於辨識遺失者與協尋者，配色以橘黃和藍綠色劃分"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1cCHqLQG7LsAhRjzgHp_LkARRBP1JIDHR",
-                        "title": "設計概念圖"
+                        "title": "設計概念圖",
+                        "info": "設計概念以條列式與分類明確的資訊為優先考量的重點，簡單幾何與配色協助展現政巡尋的品牌性格"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=13d1SM6SbTtXimWa0ij4tx9awvTRvcNQ0",
-                        "title": "使用/介面流程圖"
+                        "title": "使用/介面流程圖",
+                        "info": "使用流程與介面流程圖，可發現遺失與撿拾相互對應，流程單純易懂，建立清楚的聯絡管道以及隱私保障，提高了找尋遺失物協尋的效率"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1DQxUkLgvsfblf7kwanHGJG5ly346Jw7R",
-                        "title": "使用介面"
+                        "title": "使用介面",
+                        "info": "協尋頁面講求清楚簡單，遺失物資訊頁面力求資訊詳盡清楚，提供協尋的報酬則是對應政大特有的協尋文化"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1829Xvj_-abydC5IqsbeoozL_27qTP6wr",
-                        "title": "易用性評估/優化"
+                        "title": "易用性評估/優化",
+                        "info": "團隊將易用性進行一系列的評估，並針對初版的使用者測試進行調整與改善"
                     }
                 ]
             },
@@ -144,15 +163,18 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Nly4a7M9Bk0skEKe1SfRVQF0QschgORp",
-                        "title": "主視覺形象圖"
+                        "title": "主視覺形象圖",
+                        "info": "產品的 LOGO 設計為一個睡覺的人，概念為產品本身的形體並對應希望人人能睡個好覺的宗旨"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1zYHXJTxZzCvP5HwVxI7BtTVXAc5LYi06",
-                        "title": "產品概念圖"
+                        "title": "產品概念圖",
+                        "info": "產品 睡ㄅ 能夠連動手機APP，從中設定呼吸燈、查看睡眠報告以及提醒使用者建立正確睡眠觀念"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1VJLl0ezToaBnrA8dZ-531gf7cPzrQlZm",
-                        "title": "使用流程圖"
+                        "title": "使用流程圖",
+                        "info": "當使用者準備就寢，可將手機放置於 睡ㄅ 上充電，一方面避免在床上使用手機，同時亦可跟隨產品的呼吸頻率醞釀睡眠"
                     }
 
                 ],
@@ -168,11 +190,13 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1l1lYG1EAONwNwM6ORC9J2sOf7aJXLvBj",
-                        "title": "手機網頁介面"
+                        "title": "手機網頁介面",
+                        "info": "手機版的網頁對應推廣展覽資訊的目的，介面設計主要分為首頁、製作頭貼頁面以及推播頁面"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Gvs9UL079pS1btGeEMirXCtwRIjjLkSH",
-                        "title": "頭貼製作元件"
+                        "title": "頭貼製作元件",
+                        "info": "製作頭貼的視覺素材元件，包含臉部、膚色、服裝與顏色搭配等"
                     }
                 ]
             },
@@ -189,15 +213,18 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=15_d9ZnQDawR_LUmtLACqNeGDPXYT4f8q",
-                        "title": "被數位設計主視覺圖"
+                        "title": "被數位設計主視覺圖",
+                        "info": "主視覺以橘紅與駝黃為底色，襯托出途中的主角，被刺穿的身體代表「被設計」字面上的意涵，也意指「被射穿」的動作"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1QvNFpvQG6ajtajer0NtkFCoIJxBWcZ8-",
-                        "title": "粉絲專頁與頭貼視覺設計"
+                        "title": "粉絲專頁與頭貼視覺設計",
+                        "info": "左方為臉書粉絲專頁的主視覺效果，右方則為參展人員的專屬主視覺頭貼"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1cebec80bo3ClLIKnJibuP4bi3iQgKxVM",
-                        "title": "畢業展視覺輸出"
+                        "title": "畢業展視覺輸出",
+                        "info": "為提高校園內畢業展之關注，展覽大門外擺放人形立牌與小型宣傳看板"
                     }
                 ],
                 "videos": [
@@ -212,19 +239,23 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1svHQm7Nc0fQF_Jn3WspE5HtnYJjLSnhs",
-                        "title": "主視覺概念圖"
+                        "title": "主視覺概念圖",
+                        "info": "主視覺 DECO 以數位科技的各種元素為設計概念"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1QI3Oa50Lrclsx1IKo5VyVuxiNUlD-Y7h",
-                        "title": "校內展主視覺圖"
+                        "title": "校內展主視覺圖",
+                        "info": "圖為大學期末校內展之主視覺設計"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1JLWFKXPXGGN8bOirY_xJhUU7bi08nozs",
-                        "title": "校內展海報與EDM附圖"
+                        "title": "校內展海報與EDM附圖",
+                        "info": "圖為大學期末校內展之主視覺海報以及校網/信箱宣傳圖"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1vAnJNv0SkPG3y7YWSYgpA68-_bPd_ddw",
-                        "title": "聖誕晚會主視覺圖"
+                        "title": "聖誕晚會主視覺圖",
+                        "info": "圖為在研究所舉辦的聖誕晚會主視覺海報以及邀請卡片"
                     }
                 ]
             }
@@ -238,19 +269,23 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1r_xzndt28VrhMklBYrJaxLjboJ5U-siH",
-                        "title": "遊戲海報"
+                        "title": "遊戲海報",
+                        "info": "海報以夏天氛圍為設計主色，對應遊戲場景中春天、秋天、冬天三個不同的季節組成四季"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=164qYe8oUuv-P7_5KakWsVO_HXSp3GOf4",
-                        "title": "遊戲教學關場景(春)"
+                        "title": "遊戲教學關場景(春)",
+                        "info": "教學關設定為春天的夜晚，以藍綠色為主色，輔色則為春日的玫瑰紅"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1BlSMm27-qbpOBF3jje9UcwQBrt3PrNJX",
-                        "title": "遊戲第一關場景(秋)"
+                        "title": "遊戲第一關場景(秋)",
+                        "info": "第一關前半段設定為秋日，以紫色與淡橘色為主色，輔色則為亮橘色，除了表現出季節的氛圍，並嘗試營造出受污染的環境"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1TY2ncPggpZwnLbGEjT5zPMWgelz7GecH",
-                        "title": "遊戲第一關場景(冬)"
+                        "title": "遊戲第一關場景(冬)",
+                        "info": "第一關後半段設定為寒冷的冬夜，以藍白色為主色，季節設定欲銜接關卡解鎖後的故事情境"
                     }
                 ],
                 "videos": [
@@ -273,15 +308,18 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1_sS75qEfNzllAknvwyKBxDscbxqK6mdk",
-                        "title": "遊戲海報"
+                        "title": "遊戲海報",
+                        "info": "遊戲主視覺海報，不同於遊戲場景的低飽和配色，相對更溫暖明亮，代表製作團隊對於遊戲故事主角最終成功地消除世界災厄恢復大地豐饒的期待"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1dkis8ZWSmn99MNSpY725ZP1JmP08ElY3",
-                        "title": "遊戲主介面"
+                        "title": "遊戲主介面",
+                        "info": "遊戲的主介面設計，玩家需打出特定指令召喚出可愛的水果人們，因應季節系統以及對抗的敵人屬性，在有限的水果籃內(圖中水果欄位只能召喚 4 個，越大的水果佔的欄位數越多)，因此玩家需謹慎思考下一個召喚的水果順序"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1JCsrI_2HNcx3SRkNtlu8t7icWM9hCv4k",
-                        "title": "角色與場景物件"
+                        "title": "角色與場景物件",
+                        "info": "主角蘇菲目前能融合/變身的水果為蘋果蘇菲、榴槤蘇菲以及西瓜蘇菲，不同的水果具有不同的能力。每次使用技能後對應的水果新鮮度就會降低，變腐爛直到用盡。遊戲中怪物如圖右上角。"
                     }
                 ],
                 "videos": [
@@ -296,23 +334,28 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1PS4ssSYNUv05iG0QRLtdl5QRi2zlqKqT",
-                        "title": "遊戲視覺形象圖"
+                        "title": "遊戲視覺形象圖",
+                        "info": "遊戲形象圖與遊戲開始畫面相符，試圖營造出主流戀愛遊戲的氛圍，使用浪漫的粉橘、粉紅以及粉紫色"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Y21BCM9Z5atHTIsksLC8eR11cnV4Gfua",
-                        "title": "遊戲人物設定表"
+                        "title": "遊戲人物設定表",
+                        "info": "遊戲第一幕玩家為好友選擇對方交往的對象，不同的交往對象，將會決定後續劇情的人物設定，但最終會導向相似的結局"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1qAfokDkcjE7YSo6HjG5Y25kbTxxds8cR",
-                        "title": "遊戲流程"
+                        "title": "遊戲流程",
+                        "info": "本遊戲主要為對話式劇情遊戲，其中因應劇情而穿插不同的小遊戲，包括大家來找碴、節奏遊戲以及益智拼圖，最終拯救了自己的好友"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1-M6jFEhvvT7Gql2zOfQ_mmqRyrIVlUtl",
-                        "title": "遊戲第三幕"
+                        "title": "遊戲第三幕",
+                        "info": "圖為遊戲第三幕劇情，內容包含對話視窗、動態畫面以及互動/點擊，選擇不同的角色會出現不同的人物圖"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1mReVZRIuHvGDajNySVbGtScm7l6cUDGQ",
-                        "title": "遊戲第五幕"
+                        "title": "遊戲第五幕",
+                        "info": "第五幕為大家來找碴，對應遊戲劇情讓玩家找出好友與交往對象發生問題的蛛絲馬跡，同時增添遊戲的樂趣"
                     }
                 ],
                 "videos": [
@@ -332,15 +375,18 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1UKqiXp0dn_qwdo4WeWZlLOvE_rhngden",
-                        "title": "LINE 貼圖"
+                        "title": "LINE 貼圖",
+                        "info": "圖為 Nosetopia 系列的 LINE 原創貼圖「小次郎」，靈感源自於朋友養的一隻白刺蝟"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1l44OVvFUiVHKmskefLbFi8E-lOHXFBqG",
-                        "title": "班級紀念冊"
+                        "title": "班級紀念冊",
+                        "info": "圖片為大學班級紀念冊，封面封底與其中內容皆為 Nosetopia 系列之插畫角色"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=18uLLk7SY_w864xO90yivzdI9dBt4jXZR",
-                        "title": "IG 精選封面"
+                        "title": "IG 精選封面",
+                        "info": "為便於分類 Instagram 限時動態精選設計了一系列 Nosetopia 的插畫主題封面"
                     }
                 ]
             },
@@ -349,19 +395,23 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Yc5mtlL3mHiQc-FwJrmvUXy5Gy_2GJeJ",
-                        "title": "搶救餅乾"
+                        "title": "搶救餅乾",
+                        "info": "此為創意素描之作品，以玩具總動員為靈感，描繪出當文具主人熟睡時的夜晚，文具們極度想品嚐被鎖在玻璃櫥櫃的餅乾之情境"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1SlOI9-woCLc7YBQV6nBSZjoLKFGOPF6K",
-                        "title": "落葉"
+                        "title": "落葉",
+                        "info": "寫實素描作品，撿拾路邊的落葉，挑戰畫出枯葉的質地"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1b613-ZB3daBsDPZtRg9lYU330WZzqvsh",
-                        "title": "文具塔"
+                        "title": "文具塔",
+                        "info": "寫實素描作品，畫出各文具的透視角度"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1OjungJJO9-SbgxIvL8H0kBgoB8WCnfdv",
-                        "title": "水果籃"
+                        "title": "水果籃",
+                        "info": "寫實素描作品，嘗試繪出各種水果不同的表皮材質"
                     }
                 ]
             },
@@ -432,31 +482,38 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1qnu64AWqy6z52_aDfSb-pSEPm3lzLFe3",
-                        "title": "和平谷與翡翠宮場景"
+                        "title": "和平谷與翡翠宮場景",
+                        "info": "完整的功夫熊貓電影場景，包含村民居住的和平谷以及主角阿波修行山頂宮殿——翡翠宮"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1kplRzZ6puVnAPBwxh9cHu2shnDOBk0pD",
-                        "title": "翡翠宮場景"
+                        "title": "翡翠宮場景",
+                        "info": "功夫熊貓的翡翠宮共分為三個部分，包括山谷的入口、山腰上的宮外圍牆以及正殿"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1borTqkdAaCXfCSDkjjKPBFiSfMP3sQ5U",
-                        "title": "和平谷場景"
+                        "title": "和平谷場景",
+                        "info": "和平谷的村落建築風格相似，村落周圍以河流包覆，銜接翡翠宮的入口坡道之間設有石橋"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1NCexDgyZveNCghGv8mdeI_Q9rKDAGcI1",
-                        "title": "和平谷場景"
+                        "title": "和平谷場景",
+                        "info": "圖為尚未打光的和平谷樣貌，村民居住的多為白牆黑瓦的平房，越靠近入口越多紅牆黃窗的兩層式建築"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1ksKBOYCW1pMDygzbw1rcRs8CzdiUhlho",
-                        "title": "和平谷與翡翠宮場景"
+                        "title": "和平谷與翡翠宮場景",
+                        "info": "另一角度尚未打光的和平谷樣貌，村落被溪流、岩石與山巒包圍"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1310_080I432q7lNnOdYlvAdIfjdiH5Nb",
-                        "title": "翡翠宮場景"
+                        "title": "翡翠宮場景",
+                        "info": "尚未打光的翡翠宮，宮殿的橫樑是製作過程中最為繁瑣的部位，為體現中國的風格，貼圖除了比照功夫熊貓內的電影畫面外，亦參考了許多台灣廟宇樑柱的設計"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1EUbx8alQt6XYiZKSpFLjkIKrUTpW7vfg",
-                        "title": "場景透視結構圖"
+                        "title": "場景透視結構圖",
+                        "info": "圖為電影場景的透視結構圖，由此可知拉建白模與上貼圖過程極為繁瑣"
                     }
                 ]
             },
@@ -465,15 +522,18 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1M4dcxNxtdkGvMQcltRQkph4goRNGeqG_",
-                        "title": "山坡上的城堡場景"
+                        "title": "山坡上的城堡場景",
+                        "info": "完整霍爾的移動城堡場景，城堡佇立在山丘上的畫面是電影知名的畫面之一"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1Nph83BYPTgj52XmHT0BdM-G13A2694AI",
-                        "title": "城堡白模"
+                        "title": "城堡白模",
+                        "info": "圖為尚未上貼圖的白模，城堡結構十分複雜，電影中畫面呈現的角度有限，且結構時有變化，製作過程常發生無法拼湊的狀況"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1W5yHa98gGIY_2pvnBrkeuTu6__Hj0Jyf",
-                        "title": "未完成的城堡白模"
+                        "title": "未完成的城堡白模",
+                        "info": "圖中為製作過程中的城堡白模"
                     }
                 ]
             },
@@ -482,23 +542,28 @@
                 "pictures": [
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1tbn0o4RIU5Zw2jZZWJ79TUk03tR6b2Gg",
-                        "title": "樹樁與斧-1"
+                        "title": "樹樁與斧-1",
+                        "info": "在夜晚樹樁、斧頭與被劈砍的木柴被一旁的火堆照亮"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1QlOTKsZsVgTMoeLJHic8EMQhPzxUljvL",
-                        "title": "樹樁與斧-2"
+                        "title": "樹樁與斧-2",
+                        "info": "另一個角度的視野"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1sVvz9Do9wxsrEFOoVuaPX3HRiT0p7QIO",
-                        "title": "水果盤"
+                        "title": "水果盤",
+                        "info": "不同水果材質與器皿的質地與光照效果"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1kTpBFWtsvjYhNGvUdfDEJYmKwCTUvr-o",
-                        "title": "古代客棧-1"
+                        "title": "古代客棧-1",
+                        "info": "中國古老建築在夕陽下的氛圍"
                     },
                     {
                         "url": "https://drive.google.com/uc?export=view&id=1iCDbiA_6mE-vsZjlQLuZIBD7_iJWl6GN",
-                        "title": "古代客棧-2"
+                        "title": "古代客棧-2",
+                        "info": "另一個角度的客棧，利用打光與鏡頭焦距製造景深"
                     }
                 ]
             }

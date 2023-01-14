@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, useRef } from 'react';
 import styles from './styles.module.scss';
 
 import { StoreContext } from '../../store/reducer';
@@ -12,30 +12,46 @@ function WorkInfoBox() {
 
   const [carouselOldIndex, setcarouselOldIndex] = useState(0);
   const [carouselClickIndex, setcarouselClickIndex] = useState(0);
+  const [infoFlag, setInfoFlag] = useState(false);
+
+  const [refHeight, setRefHeight] = useState(0);
+  const ref = useRef(null);
 
   useEffect(() => {
     window.scrollTo(top);
     setcarouselOldIndex(0);
     setcarouselClickIndex(0);
+    setInfoFlag(false);
   }, [workState]);
 
   useEffect(() => {
     if (worksImageJson[portfolioNavState]?.works[workState]?.pictures) {
-      const count = setInterval(() => {
-        setcarouselOldIndex(carouselClickIndex);
-        if (
-          carouselClickIndex ==
-          worksImageJson[portfolioNavState]?.works[workState]?.pictures.length -
-            1
-        ) {
-          setcarouselClickIndex(0);
-        } else {
-          setcarouselClickIndex(carouselClickIndex + 1);
-        }
-      }, 5000);
-      return () => clearInterval(count);
+      if (!infoFlag) {
+        const count = setInterval(() => {
+          setcarouselOldIndex(carouselClickIndex);
+          if (
+            carouselClickIndex ==
+            worksImageJson[portfolioNavState]?.works[workState]?.pictures
+              .length -
+              1
+          ) {
+            setcarouselClickIndex(0);
+          } else {
+            setcarouselClickIndex(carouselClickIndex + 1);
+          }
+        }, 5000);
+        return () => clearInterval(count);
+      }
     }
-  }, [carouselClickIndex]);
+  }, [carouselClickIndex, infoFlag]);
+
+  useEffect(() => {
+    if (ref.current) {
+      setRefHeight(ref.current.clientHeight);
+    }
+  }, [ref.current?.clientHeight]);
+
+  useEffect(() => {}, [refHeight]);
 
   return (
     <div className={styles.container}>
@@ -81,6 +97,7 @@ function WorkInfoBox() {
                       : styles.circle
                   }
                   onClick={() => {
+                    setInfoFlag(false);
                     setcarouselOldIndex(carouselClickIndex);
                     setcarouselClickIndex(index);
                   }}
@@ -114,14 +131,38 @@ function WorkInfoBox() {
                   }
                 >
                   <div className={styles.captionTitle}>{item.title}</div>
-                  <button className={styles.captionbtn}>查看更多 V </button>
-                  {/* <div className={styles.captionInfo}>
-                BlueRemedy
-                海報以夏天氛圍為設計主色，對應遊戲場景中春天、秋天、冬天三個不同的季節組成四季
-              </div> */}
+                  {item.info ? (
+                    <button
+                      className={styles.captionbtn}
+                      onClick={() => {
+                        setInfoFlag(!infoFlag);
+                      }}
+                    >
+                      {infoFlag ? '收起資訊 V' : '查看更多 N'}
+                    </button>
+                  ) : (
+                    <></>
+                  )}
                 </div>
               ),
             )}
+          </div>
+
+          <div
+            className={styles.infoBox}
+            style={
+              infoFlag && refHeight != 0
+                ? { height: refHeight + 27 }
+                : { height: '0' }
+            }
+          >
+            <div ref={ref} className={styles.captionInfo}>
+              {
+                worksImageJson[portfolioNavState].works[workState].pictures[
+                  carouselClickIndex
+                ].info
+              }
+            </div>
           </div>
         </>
       ) : (

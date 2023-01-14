@@ -14,21 +14,24 @@
     position: absolute;
     top: 0;
     opacity: 0;
+    z-index: 0;
 
     &.noMove {
       opacity: 1;
+      z-index: 1;
       left: 0;
     }
 
     &.RtoM {
       opacity: 1;
+      z-index: 1;
       animation: RtoM 1s ease-in-out forwards;
 
       @keyframes RtoM {
-        from{
+        from {
           left: 100%;
         }
-        to{
+        to {
           left: 0;
         }
       }
@@ -36,13 +39,14 @@
 
     &.LtoM {
       opacity: 1;
+      z-index: 1;
       animation: LtoM 1s ease-in-out forwards;
 
       @keyframes LtoM {
-        from{
+        from {
           left: -100%;
         }
-        to{
+        to {
           left: 0;
         }
       }
@@ -50,13 +54,14 @@
 
     &.MtoL {
       opacity: 1;
+      z-index: 1;
       animation: MtoL 1s ease-in-out forwards;
 
       @keyframes MtoL {
-        from{
+        from {
           left: 0;
         }
-        to{
+        to {
           left: -100%;
         }
       }
@@ -64,13 +69,14 @@
 
     &.MtoR {
       opacity: 1;
+      z-index: 1;
       animation: MtoR 1s ease-in-out forwards;
 
       @keyframes MtoR {
-        from{
+        from {
           left: 0;
         }
-        to{
+        to {
           left: 100%;
         }
       }
@@ -136,14 +142,27 @@
       font-size: 12px;
       line-height: 15px;
       color: $main_bg_color;
-
-      // .captionInfo {
-      //   font-weight: 500;
-      //   font-size: 18px;
-      //   line-height: 32px;
-      //   color: $secondary_bg_color;
-      // }
     }
+  }
+}
+
+.infoBox {
+  width: 100%;
+  margin-top: 12px;
+  padding: 0 32px;
+
+  overflow: hidden;
+  transition: height 160ms linear;
+
+  .captionInfo {
+    border: 1.5px solid $main_content_color;
+    border-radius: 10px;
+    padding: 12px 16px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: $secondary_bg_color;
   }
 }
 
