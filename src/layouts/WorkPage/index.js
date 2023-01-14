@@ -39,7 +39,13 @@ function WorkPage() {
         <Sidebar />
       </div>
 
+      <div className={styles.top}></div>
+      <div className={styles.top2}></div>
+
       <div className={styles.content}>
+        <div className={styles.bg}>
+          <div className={styles.bgImg}></div>
+        </div>
         <div className={styles.InfoBox}>
           <InfoBox />
         </div>
@@ -48,6 +54,9 @@ function WorkPage() {
           <ImageBox />
         </div>
       </div>
+
+      <div className={styles.bottom2}></div>
+      <div className={styles.bottom}></div>
     </div>
   );
 }
