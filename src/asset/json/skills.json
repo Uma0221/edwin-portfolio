@@ -1,0 +1,97 @@
+[
+    {
+        "skill": "Photoshop",
+        "category": 0,
+        "score": 78
+    },
+    {
+        "skill": "Illustrator",
+        "category": 0,
+        "score": 80
+    },
+    {
+        "skill": "After Effects",
+        "category": 0,
+        "score": 85
+    },
+    {
+        "skill": "Premiere",
+        "category": 0,
+        "score": 65
+    },
+    {
+        "skill": "Adobe XD",
+        "category": 0,
+        "score": 50
+    },
+    {
+        "skill": "Figma",
+        "category": 0,
+        "score": 90
+    },
+    {
+        "skill": "InDesign",
+        "category": 0,
+        "score": 70
+    },
+    {
+        "skill": "Clip Studio Paint",
+        "category": 0,
+        "score": 86
+    },
+    {
+        "skill": "3DS MAX",
+        "category": 0,
+        "score": 65
+    },
+    {
+        "skill": "MAYA",
+        "category": 0,
+        "score": 40
+    },
+    {
+        "skill": "Arduino",
+        "category": 1,
+        "score": 85
+    },
+    {
+        "skill": "HTML",
+        "category": 1,
+        "score": 70
+    },
+    {
+        "skill": "CSS",
+        "category": 1,
+        "score": 75
+    },
+    {
+        "skill": "Javescript",
+        "category": 1,
+        "score": 50
+    },
+    {
+        "skill": "Bootstrap",
+        "category": 1,
+        "score": 45
+    },
+    {
+        "skill": "React Native",
+        "category": 1,
+        "score": 40
+    },
+    {
+        "skill": "Expo",
+        "category": 1,
+        "score": 48
+    },
+    {
+        "skill": "JAVA",
+        "category": 1,
+        "score": 50
+    },
+    {
+        "skill": "C/C++",
+        "category": 1,
+        "score": 50
+    }
+]

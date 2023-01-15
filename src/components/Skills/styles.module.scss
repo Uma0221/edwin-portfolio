@@ -17,18 +17,131 @@
   left: 20%;
 }
 
-.ability{
+.score {
   position: absolute;
   top: 16%;
-  left: 25%;
+  left: 27%;
   height: 18%;
-  width: 50%;
+  width: 47%;
+
+  padding: 4%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .text {
+    font-weight: 900;
+    color: #d66f15;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+    &.ch {
+      font-size: 22px;
+    }
+
+    &.en {
+      font-size: 16px;
+    }
+  }
+
+  .line_bg {
+    margin: 4px 0;
+    padding: 0 4px;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #004a73;
+
+    display: flex;
+    align-items: center;
+
+    .line {
+      width: 0;
+      height: 3px;
+      border-radius: 4px;
+      background-color: #f8c538;
+
+      transition: width 300ms ease;
+    }
+  }
 }
 
-.tools{
+.skills {
   position: absolute;
-  top: 34%;
-  left: 25%;
-  height: 33%;
-  width: 50%;
+  top: 35%;
+  left: 27%;
+  height: 31.5%;
+  width: 47%;
+
+  overflow: hidden;
+
+  .text {
+    position: absolute;
+    left: 8%;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #004a73;
+
+    &.select {
+      font-weight: 900;
+    }
+  }
+
+  .trans_cover {
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+    &.top {
+      height: 36px;
+      top: 0;
+
+      background-image: linear-gradient(
+        to bottom,
+        $main_bg_color,
+        transparent 100%
+      );
+
+      z-index: 1;
+    }
+
+    &.bottom {
+      height: 40%;
+      bottom: 8%;
+
+      background-image: linear-gradient(
+        to top,
+        $main_bg_color,
+        transparent 100%
+      );
+    }
+  }
+  .btnBox {
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    left: 0;
+
+    background-color: $main_bg_color;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    .btn {
+      aspect-ratio: 1.2;
+      height: 100%;
+      background-color: $main_bg_color;
+      border: none;
+
+      background-image: url('../../asset/imgs/banner/triangle2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
 }
