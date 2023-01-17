@@ -90,36 +90,35 @@
       .page {
         width: 88%;
         height: 100%;
-        display: flex;
+        overflow: hidden;
 
-        .yearExp_block {
-          padding: 0 6%;
-          height: 28px;
-          overflow: hidden;
+        position: relative;
 
-          .year_exp {
-            color: $main_bg_color;
-            font-size: 32px;
-            font-weight: 900;
-            line-height: 28px;
-            letter-spacing: 1px;
-          }
+        .year_exp {
+          position: absolute;
+          left: 3%;
+
+          transition: top 300ms ease-in-out;
+
+          color: $main_bg_color;
+          font-size: 32px;
+          font-weight: 900;
+          line-height: 28px;
+          letter-spacing: 1px;
         }
 
-        .all_exp {
-          // margin-top: 6%;
-          overflow: hidden;
+        .exp {
+          position: absolute;
+          left: 24%;
 
-          .exp {
-            padding-bottom: 5%;
+          transition: top 300ms ease-in-out;
 
-            .exp_line {
-              color: $main_bg_color;
-              font-size: 20px;
-              font-weight: 600;
-              line-height: 28px;
-              letter-spacing: 1px;
-            }
+          .exp_line {
+            color: $main_bg_color;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 1px;
           }
         }
       }
