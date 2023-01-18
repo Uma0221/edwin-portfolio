@@ -9,7 +9,6 @@ import {
   setSidebarState,
   setSidebarNavClick,
   setSidebarNavState,
-  setWorkState,
 } from '../../store/actions';
 
 import worksJson from '../../asset/json/works.json';
@@ -47,13 +46,9 @@ function Portfolio() {
       <div className={styles.works}>
         {worksJson[portfolioNavState].works.map((work, index) => (
           <Link
-            to={`/Portfolio/${worksJson[portfolioNavState].collection}/${work.name}`}
+            to={`/Portfolio/${worksJson[portfolioNavState].collection}?index=${index}`}
             key={`work_${index}`}
             className={styles.work}
-            onClick={() => {
-              setSidebarState(dispatch, { sidebarState: false });
-              setWorkState(dispatch, { workState: index });
-            }}
           >
             <div className={styles.work_bg}>
               <div className={styles.work_name}>{work.name}</div>

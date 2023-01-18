@@ -29,7 +29,7 @@ function WorkSidebar() {
         <div className={styles.nav}>
           {worksJson[portfolioNavState].works.map((work, index) => (
             <Link
-              to={`/Portfolio/${worksJson[portfolioNavState].collection}/${work.name}`}
+              to={`/Portfolio/${worksJson[portfolioNavState].collection}?index=${index}`}
               key={`work_${index}`}
               className={
                 workState == index
@@ -38,7 +38,6 @@ function WorkSidebar() {
               }
               onClick={() => {
                 setSidebarState(dispatch, { sidebarState: false });
-                setWorkState(dispatch, { workState: index });
               }}
             >
               <div>{work.name}</div>

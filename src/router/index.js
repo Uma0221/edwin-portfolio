@@ -20,7 +20,7 @@ function Router() {
           ></Route>
           <Route
             exact
-            path={`${path.workPage}/:collection/:work`}
+            path={`${path.workPage}/:collection`}
             element={<WorkPage />}
           ></Route>
         </Routes>
