@@ -20,12 +20,59 @@ function WorkInfoBox() {
 
   const ref = useRef(null);
 
+  const [imgURLArr, setImgURLArr] = useState(null);
+  const [imgLoadState, setImgLoadState] = useState(false);
+
+  function preloadImage(url) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.src = url;
+      img.onload = function () {
+        resolve();
+      };
+      img.onerror = function (err) {
+        reject(err);
+      };
+    });
+  }
+
+  function preloadImages(arr) {
+    const imagePromiseArr = arr.map(preloadImage);
+    return Promise.all(imagePromiseArr);
+  }
+
   useEffect(() => {
     window.scrollTo(top);
     setcarouselOldIndex(0);
     setcarouselClickIndex(0);
     setInfoFlag(false);
+
+    setImgLoadState(true);
+    if (worksImageJson[portfolioNavState]?.works[workState]?.pictures) {
+      var imgArr = Array(
+        worksImageJson[portfolioNavState]?.works[workState]?.pictures.length,
+      ).fill(0);
+      worksImageJson[portfolioNavState]?.works[workState]?.pictures.map(
+        (img, index) => (imgArr[index] = img.url),
+      );
+    }
+
+    setImgURLArr(imgArr);
   }, [workState]);
+
+  useEffect(() => {
+    if (imgURLArr && imgURLArr[0]) {
+      preloadImages(imgURLArr)
+        .then(() => {
+          console.log('done');
+          setImgLoadState(false);
+        })
+        .catch(() => {
+          console.log('error');
+          setImgLoadState(false);
+        });
+    }
+  }, [imgURLArr && imgURLArr[0]]);
 
   useEffect(() => {
     if (worksImageJson[portfolioNavState]?.works[workState]?.pictures) {
@@ -62,30 +109,33 @@ function WorkInfoBox() {
         <>
           <div className={`${styles.pictureBox} ${styles.carouselBox}`}>
             {worksImageJson[portfolioNavState].works[workState].pictures.map(
-              (item, index) => (
-                <img
-                  key={`carousel_img${index}`}
-                  className={
-                    carouselClickIndex == index &&
-                    carouselOldIndex == carouselClickIndex
-                      ? `${styles.pictureContent} ${styles.carouselItem} ${styles.noMove}`
-                      : carouselClickIndex == index &&
-                        carouselOldIndex < carouselClickIndex
-                      ? `${styles.pictureContent} ${styles.carouselItem} ${styles.RtoM}`
-                      : carouselClickIndex == index &&
-                        carouselOldIndex > carouselClickIndex
-                      ? `${styles.pictureContent} ${styles.carouselItem} ${styles.LtoM}`
-                      : carouselOldIndex == index &&
-                        carouselOldIndex < carouselClickIndex
-                      ? `${styles.pictureContent} ${styles.carouselItem} ${styles.MtoL}`
-                      : carouselOldIndex == index &&
-                        carouselOldIndex > carouselClickIndex
-                      ? `${styles.pictureContent} ${styles.carouselItem} ${styles.MtoR}`
-                      : `${styles.pictureContent} ${styles.carouselItem}`
-                  }
-                  src={item.url}
-                />
-              ),
+              (item, index) =>
+                imgLoadState ? (
+                  ''
+                ) : (
+                  <img
+                    key={`carousel_img${index}`}
+                    className={
+                      carouselClickIndex == index &&
+                      carouselOldIndex == carouselClickIndex
+                        ? `${styles.pictureContent} ${styles.carouselItem} ${styles.noMove}`
+                        : carouselClickIndex == index &&
+                          carouselOldIndex < carouselClickIndex
+                        ? `${styles.pictureContent} ${styles.carouselItem} ${styles.RtoM}`
+                        : carouselClickIndex == index &&
+                          carouselOldIndex > carouselClickIndex
+                        ? `${styles.pictureContent} ${styles.carouselItem} ${styles.LtoM}`
+                        : carouselOldIndex == index &&
+                          carouselOldIndex < carouselClickIndex
+                        ? `${styles.pictureContent} ${styles.carouselItem} ${styles.MtoL}`
+                        : carouselOldIndex == index &&
+                          carouselOldIndex > carouselClickIndex
+                        ? `${styles.pictureContent} ${styles.carouselItem} ${styles.MtoR}`
+                        : `${styles.pictureContent} ${styles.carouselItem}`
+                    }
+                    src={item.url}
+                  />
+                ),
             )}
           </div>
 

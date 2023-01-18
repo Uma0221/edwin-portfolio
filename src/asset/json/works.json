@@ -4,21 +4,25 @@
         "works": [
             {
                 "name": "TEART介紹短片",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1SFUCNwCvep1SZ5cxJhpAtlFBcnw4LwLE",
                 "intro": "介紹 Teart 產品的使用情境與用途",
                 "keywords": "Product Introduction"
             },
             {
                 "name": "今晚我想睡飽介紹短片",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1iofrFIvTNuJhEPlFxBap5teCrXsqCX2r",
                 "intro": "介紹 睡ㄅ 產品的使用情境與用途",
                 "keywords": "Product Introduction"
             },
             {
                 "name": "被數位設計展覽宣傳短片",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1EaGZHD6YhbLzoEDXRgHbjlG3lGqV0HE9",
                 "intro": "宣傳數位109級「被數位設計」畢業展，並展示展覽內各作品的集合短片",
                 "keywords": "Promotional Film"
             },
             {
                 "name": "DAILY WORKS",
+                "imgURL": "",
                 "intro": "集結日常的動態設計作品",
                 "keywords": ""
             }
@@ -29,36 +33,43 @@
         "works": [
             {
                 "name": "TEART",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1XpnNDlnXHrGxuPv7q0jWW8AtqWV0Xpi4",
                 "intro": "Teart 能正確分析傳給彼此的訊息，並轉化成一杯有情緒的茶水， 通知對方領取，以此建立家人間面對面聊天的契機",
                 "keywords": "Human–Computer Interaction / OpenHCI / Interaction Design"
             },
             {
                 "name": "HAPPY HABITS",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1NuWCI0nFafDx-nk71ZJ9nLGJ2fCcNXy-",
                 "intro": "透過 Happy Habits 能幫助使用者使用 Chatbot 制定計劃與有共同目標的朋友養成好習慣",
                 "keywords": "LINE Chatbot"
             },
             {
                 "name": "收good",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1Kf17POimKI-LkdwgmayMS8cXNI6cK5Xu",
                 "intro": "收good 整合各大運送平台，能夠解決送貨員與收貨人間貨物運送過程的資訊透明度",
                 "keywords": "App Design"
             },
             {
                 "name": "政巡尋-政大失物協尋系統",
+                "imgURL": "https://drive.google.com/uc?export=view&id=13lZ0kH_oSzYhEb_7D0qQKilw6CC7M6RI",
                 "intro": "失物協尋是政大待改善的問題，政巡尋能夠提供政大學生最便利的遺失物協尋途徑",
                 "keywords": "Web Design"
             },
             {
                 "name": "今晚，我想睡飽",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1MCYZ7QLouWGvPkR2YzWK1p-Wt02mmjso",
                 "intro": "睡ㄅ是改變行為的設計，創造友善的睡眠環境，幫助失眠者建立睡眠儀式、斷開與床錯誤的連結，還你一覺好眠",
                 "keywords": "Human–Computer Interaction / 跨界超越競賽 / Interaction Design"
             },
             {
                 "name": "小王子展覽頭貼製作網頁",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1wZekw0G32w_kCyxuzyZXd9hdX9zlqkSQ",
                 "intro": "設計手機版的頭貼製作網頁，提供參展者客製化製作自己想要的「小王子」頭貼",
                 "keywords": "Web Design"
             },
             {
                 "name": "Mcdonalds Web Redesign",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1AEkFQxFmlj7XW-00KfQipLa-E7pYpBnR",
                 "intro": "以深色模式再設計台灣的麥當勞官方網站",
                 "keywords": "Web Design"
             }
@@ -69,11 +80,13 @@
         "works": [
             {
                 "name": "被數位設計",
+                "imgURL": "https://drive.google.com/uc?export=view&id=14B-Sj8fIQYoIuEE1P7A2bp3qPDRV5WXg",
                 "intro": "主視覺 被數位設計 闡述在大學四年裡遭遇無數挫折，但最終將「被數位設計的過程」去蕪存菁，蛻變成獨當一面的數位設計者及展覽的成果",
                 "keywords": "主視覺 / 畢業展 / 新一代設計展"
             },
             {
                 "name": "DECO",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1ZKVZH2XfvLwibxUBpdKzApy0QhfrfUkd",
                 "intro": "主視覺 DECO 以電子電路元件、手機/電腦網頁、程式語言等各數位科技元素為設計概念",
                 "keywords": "主視覺 / 校內成果展 / 聖誕晚會"
             }
@@ -84,16 +97,19 @@
         "works": [
             {
                 "name": "Blue Remedy",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1RTBITmHiMfUHdi6AF-kAvLV-SbhnaItw",
                 "intro": "化身為主角 Oka 利用水的三態在地圖進行走、跑、跳、滲透、毛細等多類行為解謎破關、打擊邪惡的怪物...",
                 "keywords": "2D 捲軸 / 解謎 / 動作 / 冒險"
             },
             {
                 "name": "fRUItmeN",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1FLFMtuLZYZMyPscxfyw-0TRQxU3ss6-V",
                 "intro": "主角蘇菲使用豐饒力量召喚水果人，到世界各地抵抗災厄的怪物並恢復大地的豐饒...",
                 "keywords": "2.5D 橫向捲軸 / 動作 / 冒險"
             },
             {
                 "name": "DokiDoki心跳倒數計時",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1xrTQBPrADDu9EBEN-mKQOMKG913hjPlH",
                 "intro": "好友近日有三名追求者並詢問你的意見，聽從建議後決定跟對方交往並進入熱戀，但好友的行為開始變得奇怪...",
                 "keywords": "對話式劇情 / 恐怖解謎 / 劇情選擇"
             }
@@ -104,16 +120,19 @@
         "works": [
             {
                 "name": "Nosetopia",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1JiT2nSyqOOasrQDbPXko_NYHxUfIEge2",
                 "intro": "Nosetopia 鼻頭星球為原創插畫系列作品，包含貼圖、班級紀念冊、Instagram精選動態封面等",
                 "keywords": "LINE Stickers / Yearbook / IG Stories Cover"
             },
             {
                 "name": "Sketch",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1LP0cp4gvhK_xAyXw7wx7FSGm5jnDc0ji",
                 "intro": "集結日常的素描及手繪作品",
                 "keywords": ""
             },
             {
                 "name": "Daily Works",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1CQkF4zs8_JltfT9F_VyiXstx9SWMQ9F1",
                 "intro": "集結日常的數位插畫作品",
                 "keywords": ""
             }
@@ -124,16 +143,19 @@
         "works": [
             {
                 "name": "功夫熊貓場景",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1LgjG-RoE1R5F2KidleQ-AsPle8XkYJIw",
                 "intro": "還原夢工廠動畫公司的知名電影「功夫熊貓」中的名場景，包含和平谷與翡翠宮",
                 "keywords": "電影場景 / Kung Fu Panda / 功夫熊貓"
             },
             {
                 "name": "霍爾的移動城堡",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1QZ17qcCCEukpruQ4BPV3KQicsYzeK_fR",
                 "intro": "還原宮崎駿的知名動畫電影「霍爾的移動城堡」中的名場景，霍爾城堡的原型",
                 "keywords": "電影場景 / 宮崎駿 / 霍爾的移動城堡"
             },
             {
                 "name": "Daily Works",
+                "imgURL": "https://drive.google.com/uc?export=view&id=1FjMA6RpqYnKzc_ukFYmDzm2HEJwmS_vE",
                 "intro": "集結日常的3D建模作品",
                 "keywords": ""
             }
