@@ -89,6 +89,17 @@
   aspect-ratio: 16/9;
   border-radius: 16px;
 
+  background-color: #f9d24c;
+
+  .imgLoadGIF {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .pictureContent {
     width: 100%;
     aspect-ratio: 16/9;
@@ -137,7 +148,7 @@
       border: none;
       background-color: $secondary_bg_color;
       padding: 4px 22px;
-      
+
       display: flex;
       align-items: center;
 

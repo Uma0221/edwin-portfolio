@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Lottie from 'react-lottie';
 
 import styles from './styles.module.scss';
 
@@ -10,6 +11,8 @@ import {
   setSidebarNavClick,
   setSidebarNavState,
 } from '../../store/actions';
+
+import animationData from '../../lotties/gif_MainPage_PicsLoading.json';
 
 import worksJson from '../../asset/json/works.json';
 import triangleImg from '../../asset/imgs/banner/triangle1.png';
@@ -28,6 +31,15 @@ function Portfolio() {
 
   const [imgURLArr, setImgURLArr] = useState(null);
   const [imgLoadState, setImgLoadState] = useState(false);
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
 
   let resizeWindow = () => {
     setVisibaleWidth(window.innerWidth - 96);
@@ -177,7 +189,9 @@ function Portfolio() {
             >
               <div className={styles.work_bg}>
                 {imgLoadState ? (
-                  ''
+                  <div className={styles.imgLoadGIF}>
+                    <Lottie options={defaultOptions} height={80} width={80} />
+                  </div>
                 ) : (
                   <img className={styles.work_img} src={work.imgURL}></img>
                 )}

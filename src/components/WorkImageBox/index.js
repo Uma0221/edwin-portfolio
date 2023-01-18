@@ -1,10 +1,13 @@
 import React, { useContext, useEffect, useState, useRef } from 'react';
 import styles from './styles.module.scss';
+import Lottie from 'react-lottie';
 
 import { StoreContext } from '../../store/reducer';
 
 import worksImageJson from '../../asset/json/worksImage.json';
 import vector from '../../asset/imgs/vector.png';
+
+import animationData from '../../lotties/gif_WorksPage_PicsLoading.json';
 
 function WorkInfoBox() {
   const {
@@ -22,6 +25,28 @@ function WorkInfoBox() {
 
   const [imgURLArr, setImgURLArr] = useState(null);
   const [imgLoadState, setImgLoadState] = useState(false);
+  const [imgLoadSize, setImgLoadSize] = useState(0);
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
+
+  let resizeWindow = () => {
+    setImgLoadSize(window.innerWidth * 0.06);
+  };
+
+  useEffect(() => {
+    resizeWindow();
+    window.addEventListener('resize', resizeWindow);
+    return () => {
+      window.removeEventListener('resize', resizeWindow);
+    };
+  }, []);
 
   function preloadImage(url) {
     return new Promise((resolve, reject) => {
@@ -111,7 +136,16 @@ function WorkInfoBox() {
             {worksImageJson[portfolioNavState].works[workState].pictures.map(
               (item, index) =>
                 imgLoadState ? (
-                  ''
+                  <div
+                    className={styles.imgLoadGIF}
+                    key={`carousel_img${index}`}
+                  >
+                    <Lottie
+                      options={defaultOptions}
+                      height={imgLoadSize}
+                      width={imgLoadSize}
+                    />
+                  </div>
                 ) : (
                   <img
                     key={`carousel_img${index}`}

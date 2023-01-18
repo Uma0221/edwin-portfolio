@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
+import Lottie from 'react-lottie';
 
 import { StoreContext } from '../../store/reducer';
 import {
@@ -10,6 +11,8 @@ import {
 } from '../../store/actions';
 
 import styles from './styles.module.scss';
+
+import animationData from '../../lotties/gif_SlideUp.json';
 
 import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact';
@@ -46,6 +49,15 @@ function HomePage() {
   const [portfolioHeight, setPortfolioHeight] = useState(0);
   const [contactHeight, setContactHeight] = useState(0);
   const [currentNavState, setCurrentNavState] = useState(0);
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
 
   let resizeWindow = () => {
     setWindowWidth(window.innerWidth);
@@ -319,6 +331,10 @@ function HomePage() {
             }
           >
             <Contact />
+          </div>
+
+          <div className={styles.slideUp}>
+            <Lottie options={defaultOptions} height={97} width={37} />
           </div>
         </div>
       ) : (
