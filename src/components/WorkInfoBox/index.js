@@ -68,16 +68,21 @@ function WorkInfoBox() {
           <div className={styles.infoText}>
             {worksInfoJson[portfolioNavState].works[workState].intro}
           </div>
-          <div className={`${styles.flex} ${styles.link_padding}`}>
-            <a
-              href={worksInfoJson[portfolioNavState].works[workState].link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              {worksInfoJson[portfolioNavState].works[workState].link_title}
-            </a>
-          </div>
+
+          {worksInfoJson[portfolioNavState].works[workState].link_title ? (
+            <div className={`${styles.flex} ${styles.link_padding}`}>
+              <a
+                href={worksInfoJson[portfolioNavState].works[workState].link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                {worksInfoJson[portfolioNavState].works[workState].link_title}
+              </a>
+            </div>
+          ) : (
+            <></>
+          )}
 
           {worksInfoJson[portfolioNavState].works[workState]
             .assignments_name ? (

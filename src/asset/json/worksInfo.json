@@ -20,7 +20,7 @@
             },
             {
                 "name": "今晚我想睡飽介紹短片",
-                "year": "2019",
+                "year": "2021",
                 "keywords_row1": [
                     "Product Introduction"
                 ],
@@ -38,7 +38,7 @@
                 "name": "被數位設計展覽宣傳短片",
                 "year": "2020",
                 "keywords_row1": [
-                    "Product Introduction"
+                    "Promotional Film"
                 ],
                 "keywords_row2": [
                     "Illustrator",
@@ -83,7 +83,7 @@
                     "AfterEffect",
                     "Premiere"
                 ],
-                "intro": "現代科技發達，人們已習慣使用科技產品進行日常溝通，甚至生活在同一屋簷下的家人，亦常使用手機通訊軟體交談。再者，情緒是很難以輕易傳達的一種表現,有時因訊息的情緒猜測產生衝突或使彼此誤解更深。\n\n綜合上述，家人間因科技縮短了時空距離卻拉長了彼此心理的距離，雙方親口聊天的時間頻率屈指可數。Teart 能將傳給對方的訊息正確分析，並轉化成一杯有情緒的茶水，通知對方領取以及詢問是否要與自己一人一杯茶水好好面對面聊天。\n\n此專案於 OpenHCI‘19 工作坊期間與後一月，和組員們共同完成，包含前期議題探討、思考解方、後期製作原型與優化，後於 TAICHI‘19 國際人機互動研討會中成果發表。",
+                "intro": "現代科技發達，人們已習慣使用科技產品進行日常溝通，甚至生活在同一屋簷下的家人，亦常使用手機通訊軟體交談。再者，情緒是很難以輕易傳達的一種表現，有時因訊息的情緒猜測產生衝突或使彼此誤解更深。\n\n綜合上述，家人間因科技縮短了時空距離卻拉長了彼此心理的距離，雙方親口聊天的時間頻率屈指可數。Teart 能將傳給對方的訊息正確分析，並轉化成一杯有情緒的茶水，通知對方領取以及詢問是否要與自己一人一杯茶水好好面對面聊天。\n\n此專案於 OpenHCI‘19 工作坊期間與後一月，和組員們共同完成，包含前期議題探討、思考解方、後期製作原型與優化，後於 TAICHI‘19 國際人機互動研討會中成果發表。",
                 "link_title": "產品介紹短片連結",
                 "link": "https://youtu.be/5T3dQYePIG0",
                 "assignments_name": "共同發想",
@@ -147,14 +147,14 @@
                 "name": "收good",
                 "year": "2019",
                 "keywords_row1": [
-                    "LINE Chatbot"
+                    "App Design"
                 ],
                 "keywords_row2": [
                     "Figma",
                     "Illustrator",
                     "Photoshop"
                 ],
-                "intro": "收good 整合各大運送平台，能夠解決送貨員與收貨人間貨物運送過程的資訊透明度",
+                "intro": "團隊發現貨物配送過程中收送貨兩端點的不對稱資訊導致收貨者的不確定性以及貨物運送過程極大的時間成本，收good 整合各大運送平台，能夠解決送貨員與收貨者間貨物運送過程的資訊透明度問題",
                 "link_title": "PROTOTYPE",
                 "link": "https://www.figma.com/proto/28EIlDrNn9QgiKltcQelXf/%E6%94%B6good_App?page-id=0%3A1&node-id=5%3A12&viewport=174%2C435%2C0.22&scaling=scale-down&starting-point-node-id=5%3A12&show-proto-sidebar=1",
                 "assignments_name": "共同發想",
@@ -190,8 +190,8 @@
                 "assignments_name": "共同發想",
                 "assignments_division": [
                     {
-                        "division_title": "使用者調查/研究",
-                        "division_person": "林亮妤 蔣翊亭 鄒采倪 黃宥穎"
+                        "division_title": "共同使用者調查/研究",
+                        "division_person": ""
                     },
                     {
                         "division_title": "簡報設計",
@@ -213,7 +213,7 @@
             },
             {
                 "name": "今晚，我想睡飽",
-                "year": "2019",
+                "year": "2021",
                 "keywords_row1": [
                     "Human–Computer Interaction",
                     "跨界超越競賽",
@@ -226,14 +226,14 @@
                     "AfterEffect",
                     "Premiere"
                 ],
-                "intro": "睡ㄅ是改變行為的設計，創造友善的睡眠環境，幫助失眠者建立睡眠儀式、斷開與床錯誤的連結，還你一覺好眠",
-                "link_title": "產品介紹短片連結",
-                "link": "https://youtu.be/oq_kVmt8ZMQ",
+                "intro": "睡ㄅ是改變行為的設計，它能戒除現代人睡前在床上滑手機的壞習慣，並創造友善的睡眠環境，幫助失眠者建立睡眠儀式、斷開與床錯誤的連結，還你一覺好眠\n\n本專案為跨界超越競賽的參賽作品，團隊名稱為「天氣晴朗才上課，披星戴月讀paper」，參賽專案「今晚，我想睡飽」入選複賽",
+                "link_title": "複賽簡報連結",
+                "link": "https://drive.google.com/file/d/1bEwOJfeRsLBQ0rlKsrozrrO_HNtknFy9/view?usp=sharing",
                 "assignments_name": "共同發想",
                 "assignments_division": [
                     {
-                        "division_title": "使用者調查/研究",
-                        "division_person": "蔣翊亭 鄒采倪 黃宥穎"
+                        "division_title": "共同使用者調查/研究",
+                        "division_person": ""
                     },
                     {
                         "division_title": "裝置設計程式技術",
@@ -241,11 +241,15 @@
                     },
                     {
                         "division_title": "簡報設計",
-                        "division_person": "鄒采倪 黃宥穎"
+                        "division_person": "鄒采倪"
                     },
                     {
-                        "division_title": "動態設計",
+                        "division_title": "視覺/動態設計",
                         "division_person": "黃宥穎"
+                    },
+                    {
+                        "division_title": "企劃製作",
+                        "division_person": "蔣翊亭"
                     },
                     {
                         "division_title": "指導教授",
@@ -255,7 +259,7 @@
             },
             {
                 "name": "小王子展覽頭貼製作網頁",
-                "year": "2022",
+                "year": "2021",
                 "keywords_row1": [
                     "Web Design"
                 ],
@@ -264,14 +268,14 @@
                     "Illustrator",
                     "Photoshop"
                 ],
-                "intro": "設計手機版的頭貼製作網頁，提供參展者客製化製作自己想要的「小王子」頭貼",
+                "intro": "設計製作頭貼的手機版網頁，提供參展者客製化自己專屬的「小王子」頭貼，目的為有效推廣大眾展覽資訊，因此首頁主要提供展覽資訊；製作頭貼頁面則讓使參展者客製化自己的頭貼，設計了各種不同的臉部與服裝視覺元件供任意搭配；下載頭貼頁面則可分享自己製作的頭貼，提高展覽訊息在客群間的轉換與傳播\n\n此作品為外包接洽的專案",
                 "link_title": "PROTOTYPE",
                 "link": "https://www.figma.com/proto/aWLopYCUfLY5GJg8fmc0LB/The-Little-Prince-Profile-Maker-Web?page-id=0%3A1&node-id=41%3A206&viewport=106%2C163%2C0.27&scaling=scale-down&starting-point-node-id=41%3A38",
                 "assignments_name": "個人作品"
             },
             {
                 "name": "Mcdonalds Web Redesign",
-                "year": "2019",
+                "year": "2020",
                 "keywords_row1": [
                     "Web Design"
                 ],
@@ -280,8 +284,8 @@
                     "Photoshop"
                 ],
                 "intro": "以深色模式再設計台灣的麥當勞官方網站",
-                "link_title": "",
-                "link": "",
+                "link_title": "網頁作品連結",
+                "link": "https://hyuying.github.io/dark-Mcdonalds-Redesign/",
                 "assignments_name": "共同發想",
                 "assignments_division": [
                     {
@@ -333,7 +337,10 @@
                     "校內成果展",
                     "聖誕晚會"
                 ],
-                "keywords_row2": [],
+                "keywords_row2": [
+                    "Illustrator",
+                    "Photoshop"
+                ],
                 "intro": "主視覺 DECO 以電子電路元件、手機/電腦網頁、程式語言等各數位科技元素為設計概念",
                 "link_title": "",
                 "link": "",
@@ -359,7 +366,7 @@
                     "Photoshop",
                     "ClipStudioPaint"
                 ],
-                "intro": "BlueRemedy 是一款結合冒險與解謎元素的2D捲軸遊戲，玩家以第三人稱化身為世界僅存的水滴 Oka ，借助 Oka 所擁有的三態特性，像是滲透作用、毛細現象等，角色可以在地圖上進行走、跑、跳、穿梭等行為解謎通關並使用技能消滅邪惡的怪物，同時找出遺失已久的記憶...\n\n此專案為大學時期之畢業專題作品，入圍 2020 年放視大賞第一階段遊戲類-創意企劃組與第二階段遊戲類-PC遊戲創作組",
+                "intro": "BlueRemedy 是一款結合冒險與解謎元素的2D捲軸遊戲，玩家以第三人稱化身為世界僅存的水滴 Ｏka ，借助 Oka 所擁有的三態特性，像是滲透作用、毛細現象等，角色可以在地圖上進行走、跑、跳、穿梭等行為解謎通關並使用技能消滅邪惡的怪物，同時找出遺失已久的記憶...\n\n此專案為大學時期之畢業專題作品，入圍 2020 年放視大賞第一階段遊戲類-創意企劃組與第二階段遊戲類-PC遊戲創作組",
                 "link_title": "遊戲粉絲專頁",
                 "link": "https://www.facebook.com/Fruitmen",
                 "assignments_name": "共同發想",
@@ -385,7 +392,7 @@
                         "division_person": "沈桓民"
                     },
                     {
-                        "division_title": "怪物 /介面/機關程式",
+                        "division_title": "怪物 /介面 /機關程式",
                         "division_person": "郭昀甄"
                     },
                     {
@@ -455,7 +462,7 @@
                 "assignments_name": "共同發想",
                 "assignments_division": [
                     {
-                        "division_title": "主視覺 /介面設計",
+                        "division_title": "主視覺/介面設計",
                         "division_person": "黃宥穎"
                     },
                     {
@@ -522,7 +529,7 @@
             },
             {
                 "name": "Daily Works",
-                "year": "2019",
+                "year": "2018 -",
                 "intro": "彙整日常的數位插畫作品",
                 "assignments_name": "個人作品"
             }

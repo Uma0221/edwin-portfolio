@@ -120,6 +120,12 @@
 
       padding: 6px 18px;
       border: 2px solid $secondary_bg_color;
+      transition: all 300ms ease;
+
+      &:hover {
+        color: $main_bg_color;
+        background-color: $secondary_bg_color;
+      }
     }
   }
 }
