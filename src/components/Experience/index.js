@@ -146,7 +146,7 @@ function Experience() {
               ))}
             </div>
 
-            <div className={styles.controler}>
+            <div className={styles.controller}>
               <button
                 className={
                   expState == 0

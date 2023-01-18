@@ -119,7 +119,7 @@ function Intro() {
               </div>
             )}
 
-            <div className={styles.controler}>
+            <div className={styles.controller}>
               <button
                 className={
                   introState == 0
