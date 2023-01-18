@@ -1,16 +1,10 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
-
-import { StoreContext } from '../../store/reducer';
-import { setIntroState } from '../../store/actions';
 
 import introJson from '../../asset/json/intro.json';
 
 function Intro() {
-  const {
-    state: { introState },
-    dispatch,
-  } = useContext(StoreContext);
+  const [introState, setIntroState] = useState(0);
 
   useEffect(() => {}, [introState]);
 
@@ -133,7 +127,7 @@ function Intro() {
                     : `${styles.triangle} ${styles.triangle_rotate}`
                 }
                 onClick={() => {
-                  setIntroState(dispatch, { introState: introState - 1 });
+                  setIntroState(introState - 1);
                 }}
               ></button>
               <button
@@ -143,7 +137,7 @@ function Intro() {
                     : styles.triangle
                 }
                 onClick={() => {
-                  setIntroState(dispatch, { introState: introState + 1 });
+                  setIntroState(introState + 1);
                 }}
               ></button>
             </div>

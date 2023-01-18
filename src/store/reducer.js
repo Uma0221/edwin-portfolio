@@ -8,8 +8,6 @@ const initialState = {
   sidebarState: false,
   sidebarNavClick: false,
   sidebarNavState: 0,
-  introState: 0,
-  expState: 0,
   portfolioNavState: 0,
   workState: -1,
   requestdata: { loading: false, error: null },
@@ -31,16 +29,6 @@ function reducer(state, action) {
       return {
         ...state,
         sidebarNavState: action.payload,
-      };
-    case Type.SET_INTRO_STATE:
-      return {
-        ...state,
-        introState: action.payload,
-      };
-    case Type.SET_EXP_STATE:
-      return {
-        ...state,
-        expState: action.payload,
       };
     case Type.SET_PORTFOLIONAV_STATE:
       return {

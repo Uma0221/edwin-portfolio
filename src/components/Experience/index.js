@@ -1,12 +1,11 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './styles.module.scss';
-
-import { StoreContext } from '../../store/reducer';
-import { setExpState } from '../../store/actions';
 
 import expJson from '../../asset/json/exp.json';
 
 function Experience() {
+  const [expState, setExpState] = useState(0);
+
   var expItemArr = Array(expJson.length).fill(0);
 
   var maxPage = 0;
@@ -59,11 +58,6 @@ function Experience() {
       pageYearArr[i] = pageExpArr[i];
     }
   }
-
-  const {
-    state: { expState },
-    dispatch,
-  } = useContext(StoreContext);
 
   useEffect(() => {}, [expState]);
 
@@ -160,7 +154,7 @@ function Experience() {
                     : `${styles.triangle} ${styles.triangle_rotate}`
                 }
                 onClick={() => {
-                  setExpState(dispatch, { expState: expState - 1 });
+                  setExpState(expState - 1);
                 }}
               ></button>
               <button
@@ -170,7 +164,7 @@ function Experience() {
                     : styles.triangle
                 }
                 onClick={() => {
-                  setExpState(dispatch, { expState: expState + 1 });
+                  setExpState(expState + 1);
                 }}
               ></button>
             </div>
