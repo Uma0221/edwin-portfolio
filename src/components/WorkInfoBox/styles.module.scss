@@ -3,7 +3,7 @@
 
 .container {
   width: 100%;
-  border: 2.5px solid $secondary_bg_color;
+  border: 2.5px solid $main_content_color;
   border-radius: 14px;
 }
 
@@ -12,7 +12,7 @@
   width: 100%;
   background-color: $third_content_color;
   border-radius: 10px 10px 0 0;
-  border-bottom: 2.5px solid $secondary_bg_color;
+  border-bottom: 2.5px solid $main_content_color;
   display: flex;
   align-items: center;
   padding-left: 3%;
@@ -22,7 +22,7 @@
     height: 40%;
     margin: 0 1%;
     border-radius: 50%;
-    border: 2.5px solid $secondary_bg_color;
+    border: 2.5px solid $main_content_color;
     background-color: $secondary_content_color;
   }
 
