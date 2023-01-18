@@ -196,14 +196,16 @@ function Portfolio() {
                   <img className={styles.work_img} src={work.imgURL}></img>
                 )}
 
-                <div className={styles.work_name}>{work.name}</div>
                 <div className={styles.work_cover}>
                   <div className={styles.work_intro}>{work.intro}</div>
                   <div className={styles.work_more}>MORE</div>
                 </div>
               </div>
             </Link>
-            <div className={styles.work_keywords}>{work.keywords}</div>
+            <div className={styles.work_outside}>
+              <div className={styles.work_name}>{work.name}</div>
+              <div className={styles.work_keywords}>{work.keywords}</div>
+            </div>
           </div>
         ))}
       </div>
