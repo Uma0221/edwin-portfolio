@@ -83,6 +83,7 @@
 .content {
   position: relative;
   padding: 96px 5.2% 70px 4.2%;
+  min-height: calc(100% - 148px);
   display: flex;
   justify-content: space-between;
   background-color: $main_bg_color;
