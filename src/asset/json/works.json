@@ -4,25 +4,25 @@
         "works": [
             {
                 "name": "TEART介紹短片",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1SFUCNwCvep1SZ5cxJhpAtlFBcnw4LwLE",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/MotionGraphics%2Fimg1_TEART.png?alt=media&token=64a486a3-2664-460c-8bb5-a49b5f1a6e58",
                 "intro": "介紹 Teart 產品的使用情境與用途",
                 "keywords": "Product Introduction"
             },
             {
                 "name": "今晚我想睡飽介紹短片",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1iofrFIvTNuJhEPlFxBap5teCrXsqCX2r",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/MotionGraphics%2Fimg2_%E4%BB%8A%E6%99%9A%E6%88%91%E6%83%B3%E7%9D%A1%E9%A3%BD.png?alt=media&token=b0181a2a-9ca4-4680-9070-c5d0cc775a94",
                 "intro": "介紹 睡ㄅ 產品的使用情境與用途",
                 "keywords": "Product Introduction"
             },
             {
                 "name": "被數位設計\n展覽宣傳短片",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1EaGZHD6YhbLzoEDXRgHbjlG3lGqV0HE9",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/MotionGraphics%2Fimg3_%E8%A2%AB%E6%95%B8%E4%BD%8D%E8%A8%AD%E8%A8%88.png?alt=media&token=e2cbd026-6f1b-48b7-b467-e2f99ce22019",
                 "intro": "宣傳數位109級「被數位設計」畢業展，並展示展覽內各作品的集合短片",
                 "keywords": "Promotional Film"
             },
             {
                 "name": "DAILY WORKS",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1JyzFoEXtPd_TRx7E_5qzkl8eKiHhPxr9",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/MotionGraphics%2Fimg4_MGDailyWorks.png?alt=media&token=a8ec03fb-7e88-4dd7-a788-c10a44d68c60",
                 "intro": "集結日常的動態設計作品",
                 "keywords": ""
             }
@@ -33,43 +33,43 @@
         "works": [
             {
                 "name": "TEART",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1XpnNDlnXHrGxuPv7q0jWW8AtqWV0Xpi4",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg5_TEART.png?alt=media&token=a4e653a9-2bc6-4f43-8bad-76e878c50494",
                 "intro": "Teart 能正確分析傳給彼此的訊息，並轉化成一杯有情緒的茶水， 通知對方領取，以此建立家人間面對面聊天的契機",
                 "keywords": "Human–Computer Interaction / OpenHCI / Interaction Design"
             },
             {
                 "name": "HAPPY HABITS",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1NuWCI0nFafDx-nk71ZJ9nLGJ2fCcNXy-",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg6_HappyHabits.png?alt=media&token=c4c1406e-0621-41c7-9db4-1b87b6cd9b9d",
                 "intro": "透過 Happy Habits 能幫助使用者使用 Chatbot 制定計劃與有共同目標的朋友養成好習慣",
                 "keywords": "LINE Chatbot"
             },
             {
                 "name": "收good",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1Kf17POimKI-LkdwgmayMS8cXNI6cK5Xu",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg7_%E6%94%B6good.png?alt=media&token=cf63be5d-c75e-451c-a3ef-d7f6779bb393",
                 "intro": "收good 整合各大運送平台，能夠解決送貨員與收貨人間貨物運送過程的資訊透明度",
                 "keywords": "App Design"
             },
             {
                 "name": "政巡尋-\n政大失物協尋系統",
-                "imgURL": "https://drive.google.com/uc?export=view&id=13lZ0kH_oSzYhEb_7D0qQKilw6CC7M6RI",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg8_%E6%94%BF%E5%B7%A1%E5%B0%8B.png?alt=media&token=6444daa4-989b-4297-b641-8a306301f039",
                 "intro": "失物協尋是政大待改善的問題，政巡尋能夠提供政大學生最便利的遺失物協尋途徑",
                 "keywords": "Web Design"
             },
             {
                 "name": "今晚，我想睡飽",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1MCYZ7QLouWGvPkR2YzWK1p-Wt02mmjso",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg9_%E4%BB%8A%E6%99%9A%E6%88%91%E6%83%B3%E7%9D%A1%E9%A3%BD.png?alt=media&token=726d2e3a-cfe7-4895-bfb9-2b32162ef8cc",
                 "intro": "睡ㄅ是改變行為的設計，創造友善的睡眠環境，幫助失眠者建立睡眠儀式、斷開與床錯誤的連結，還你一覺好眠",
                 "keywords": "Human–Computer Interaction / 跨界超越競賽 / Interaction Design"
             },
             {
                 "name": "小王子展覽\n頭貼製作網頁",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1wZekw0G32w_kCyxuzyZXd9hdX9zlqkSQ",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg10_%E5%B0%8F%E7%8E%8B%E5%AD%90.png?alt=media&token=35bc41d7-5fd0-4230-baec-89807b018ece",
                 "intro": "設計手機版的頭貼製作網頁，提供參展者客製化製作自己想要的「小王子」頭貼",
                 "keywords": "Web Design"
             },
             {
                 "name": "Mcdonalds Web Redesign",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1AEkFQxFmlj7XW-00KfQipLa-E7pYpBnR",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/UI%26UX%2Fimg11_McDonald.png?alt=media&token=2d8561a2-ccea-4468-bf9a-8855006f9669",
                 "intro": "以深色模式再設計台灣的麥當勞官方網站",
                 "keywords": "Web Design"
             }
@@ -80,13 +80,13 @@
         "works": [
             {
                 "name": "被數位設計",
-                "imgURL": "https://drive.google.com/uc?export=view&id=14B-Sj8fIQYoIuEE1P7A2bp3qPDRV5WXg",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/VisualDesign%2Fimg12_%E8%A2%AB%E6%95%B8%E4%BD%8D%E8%A8%AD%E8%A8%88.png?alt=media&token=80fc3b27-ff38-48de-afa6-32016eccecb1",
                 "intro": "主視覺 被數位設計 闡述在大學四年裡遭遇無數挫折，但最終將「被數位設計的過程」去蕪存菁，蛻變成獨當一面的數位設計者及展覽的成果",
                 "keywords": "主視覺 / 畢業展 / 新一代設計展"
             },
             {
                 "name": "DECO",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1ZKVZH2XfvLwibxUBpdKzApy0QhfrfUkd",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/VisualDesign%2Fimg13_DECO.png?alt=media&token=8f0d51f1-d5c8-4e12-bf2c-7cf4af509ad1",
                 "intro": "主視覺 DECO 以電子電路元件、手機/電腦網頁、程式語言等各數位科技元素為設計概念",
                 "keywords": "主視覺 / 校內成果展 / 聖誕晚會"
             }
@@ -97,19 +97,19 @@
         "works": [
             {
                 "name": "Blue Remedy",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1RTBITmHiMfUHdi6AF-kAvLV-SbhnaItw",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/GameArt%2Fimg14_BlueRemedy.png?alt=media&token=fdd21296-9327-4b69-a655-d5420028bd6e",
                 "intro": "化身為主角 Oka 利用水的三態在地圖進行走、跑、跳、滲透、毛細等多類行為解謎破關、打擊邪惡的怪物...",
                 "keywords": "2D 捲軸 / 解謎 / 動作 / 冒險"
             },
             {
                 "name": "fRUItmeN",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1FLFMtuLZYZMyPscxfyw-0TRQxU3ss6-V",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/GameArt%2Fimg15_fruitman.png?alt=media&token=e3f5c468-7b78-4c45-9ee3-3766cbe0813b",
                 "intro": "主角蘇菲使用豐饒力量召喚水果人，到世界各地抵抗災厄的怪物並恢復大地的豐饒...",
                 "keywords": "2.5D 橫向捲軸 / 動作 / 冒險"
             },
             {
                 "name": "DokiDoki\n心跳倒數計時",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1xrTQBPrADDu9EBEN-mKQOMKG913hjPlH",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/GameArt%2Fimg16_DokiDoki.png?alt=media&token=32217d0b-77c4-4140-a9b6-39dbf32c909e",
                 "intro": "好友近日有三名追求者並詢問你的意見，聽從建議後決定跟對方交往並進入熱戀，但好友的行為開始變得奇怪...",
                 "keywords": "對話式劇情 / 恐怖解謎 / 劇情選擇"
             }
@@ -120,19 +120,19 @@
         "works": [
             {
                 "name": "Nosetopia",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1JiT2nSyqOOasrQDbPXko_NYHxUfIEge2",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/Illustration%2Fimg17_Nosetopia.png?alt=media&token=2b288147-6cf8-4b93-bd8b-6a2b5827b8b5",
                 "intro": "Nosetopia 鼻頭星球為原創插畫系列作品，包含貼圖、班級紀念冊、Instagram精選動態封面等",
                 "keywords": "LINE Stickers / Yearbook / IG Stories Cover"
             },
             {
                 "name": "Sketch",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1LP0cp4gvhK_xAyXw7wx7FSGm5jnDc0ji",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/Illustration%2Fimg18_sketch.png?alt=media&token=d1c0fbf4-57f8-4432-9392-0d4eafded647",
                 "intro": "集結日常的素描及手繪作品",
                 "keywords": ""
             },
             {
                 "name": "Daily Works",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1CQkF4zs8_JltfT9F_VyiXstx9SWMQ9F1",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/Illustration%2Fimg19_illustrationDailyWorks.png?alt=media&token=41165502-139e-426e-b897-1567986e91d7",
                 "intro": "集結日常的數位插畫作品",
                 "keywords": ""
             }
@@ -143,19 +143,19 @@
         "works": [
             {
                 "name": "功夫熊貓場景",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1LgjG-RoE1R5F2KidleQ-AsPle8XkYJIw",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/3DModling%2Fimg20_%E5%8A%9F%E5%A4%AB%E7%86%8A%E8%B2%93.png?alt=media&token=b037a1db-e3bf-4f1d-ba38-bfe69fc14add",
                 "intro": "還原夢工廠動畫公司的知名電影「功夫熊貓」中的名場景，包含和平谷與翡翠宮",
                 "keywords": "電影場景 / Kung Fu Panda / 功夫熊貓"
             },
             {
                 "name": "霍爾的移動城堡",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1QZ17qcCCEukpruQ4BPV3KQicsYzeK_fR",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/3DModling%2Fimg21_%E9%9C%8D%E7%88%BE%E7%9A%84%E7%A7%BB%E5%8B%95%E5%9F%8E%E5%A0%A1.png?alt=media&token=999c8bb8-18ff-4f43-beef-e114b0be2e23",
                 "intro": "還原宮崎駿的知名動畫電影「霍爾的移動城堡」中的名場景，霍爾城堡的原型",
                 "keywords": "電影場景 / 宮崎駿 / 霍爾的移動城堡"
             },
             {
                 "name": "Daily Works",
-                "imgURL": "https://drive.google.com/uc?export=view&id=1FjMA6RpqYnKzc_ukFYmDzm2HEJwmS_vE",
+                "imgURL": "https://firebasestorage.googleapis.com/v0/b/portfolio-d80b1.appspot.com/o/3DModling%2Fimg22_3DModlingDailyWorks.png?alt=media&token=90df1fcb-64e6-4b7a-9395-c2735a7bcec2",
                 "intro": "集結日常的3D建模作品",
                 "keywords": ""
             }
