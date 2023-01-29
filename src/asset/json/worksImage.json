@@ -30,7 +30,49 @@
                 ]
             },
             {
-                "name": "DAILY WORKS"
+                "name": "DAILY WORKS",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/6SXkBJUqESU",
+                        "caption": "Taiwan Patterned Glass"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/y9gGu3RlG6M",
+                        "caption": "Zongzi"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/WPp8_-fH-zg",
+                        "caption": "Earrings"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/Ii3rKpnoJN4",
+                        "caption": "Unicorn"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/59_RvJ-22as",
+                        "caption": "Camping"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/XyYpGW0KdIg",
+                        "caption": "Blueberries"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/PPCPRVZWw-w",
+                        "caption": "Yolk"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/0GBOlDCTUAI",
+                        "caption": "Wrecking ball"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/vYTeW_qjBvI",
+                        "caption": "Martini"
+                    },
+                    {
+                        "url": "https://www.youtube.com/embed/jBF9J2m1-_g",
+                        "caption": "Sunset"
+                    }
+                ]
             }
         ]
     },
@@ -201,7 +243,13 @@
                 ]
             },
             {
-                "name": "Mcdonalds Web Redesign"
+                "name": "Mcdonalds Web Redesign",
+                "videos": [
+                    {
+                        "url": "https://www.youtube.com/embed/x-3V5OLPl5E",
+                        "caption": "網頁展示短片"
+                    }
+                ]
             }
         ]
     },
